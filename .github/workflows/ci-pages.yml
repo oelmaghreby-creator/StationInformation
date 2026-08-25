@@ -55,4 +55,4 @@ jobs:
     steps:
       - name: Deploy Pages artifact
         id: deployment
-        uses: actions/deploy-pages@d6db3bb1c20c3a439cf4f8ec5d38c130bab91820 # v4.0.5
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

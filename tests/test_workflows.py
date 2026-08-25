@@ -12,6 +12,7 @@ import yaml
 
 ROOT = Path(__file__).parents[1]
 SHA_PIN = re.compile(r".+@[0-9a-f]{40}$")
+DEPLOY_PAGES_V4_SHA = "d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e"
 
 
 def load_workflow(name: str) -> tuple[str, dict[str, object]]:
@@ -65,6 +66,7 @@ def test_ci_pages_workflow_tests_generated_output_and_deploys_with_scoped_permis
     assert deploy["if"] == "github.ref == 'refs/heads/main'"
     assert deploy["permissions"] == {"pages": "write", "id-token": "write"}
     assert any("deploy-pages@" in use for use in step_uses(deploy))
+    assert f"actions/deploy-pages@{DEPLOY_PAGES_V4_SHA}" in step_uses(deploy)
     assert all(SHA_PIN.fullmatch(use) for use in step_uses(build) + step_uses(deploy))
 
 
