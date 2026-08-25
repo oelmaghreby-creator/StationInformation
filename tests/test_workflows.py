@@ -30,7 +30,7 @@ def step_uses(job: dict[str, object]) -> list[str]:
     return [step["uses"] for step in steps if isinstance(step, dict) and "uses" in step]
 
 
-def test_ci_pages_workflow_tests_generated_output_and_deploys_with_scoped_permissions():
+def test_ci_pages_workflow_tests_syncs_generated_output_and_deploys_with_scoped_permissions():
     _, workflow = load_workflow("ci-pages.yml")
     trigger = workflow["on"]
     assert isinstance(trigger, dict)
@@ -41,8 +41,10 @@ def test_ci_pages_workflow_tests_generated_output_and_deploys_with_scoped_permis
     jobs = workflow["jobs"]
     assert isinstance(jobs, dict)
     build = jobs["build"]
+    sync = jobs["sync-generated-api"]
     deploy = jobs["deploy"]
     assert isinstance(build, dict)
+    assert isinstance(sync, dict)
     assert isinstance(deploy, dict)
     build_script = "\n".join(
         step.get("run", "") for step in build["steps"] if isinstance(step, dict)
@@ -53,8 +55,7 @@ def test_ci_pages_workflow_tests_generated_output_and_deploys_with_scoped_permis
     assert "SOURCE_DATE_EPOCH" not in workflow.get("env", {})
     assert "crew-customs build --root . --output public/api/v1" in build_script
     assert "crew-customs release-check --root . --snapshot-only" in build_script
-    assert "git diff --exit-code public" in build_script
-    assert "git status --porcelain --untracked-files=all -- public" in build_script
+    assert "git diff --exit-code public" not in build_script
     upload_steps = [
         step for step in build["steps"]
         if isinstance(step, dict) and "upload-pages-artifact@" in step.get("uses", "")
@@ -64,11 +65,28 @@ def test_ci_pages_workflow_tests_generated_output_and_deploys_with_scoped_permis
     manifest = json.loads((ROOT / "release-manifest.json").read_text(encoding="utf-8"))
     assert manifest["publicationMode"] == "snapshot-only"
     assert upload_steps[0]["with"]["path"] == manifest["publishRoot"]
+    assert sync["if"] == "github.ref == 'refs/heads/main'"
+    assert sync["needs"] == "build"
+    assert sync["permissions"] == {"contents": "write"}
+    sync_script = "\n".join(
+        step.get("run", "") for step in sync["steps"] if isinstance(step, dict)
+    )
+    assert "crew-customs validate --root ." in sync_script
+    assert "crew-customs build --root . --output public/api/v1" in sync_script
+    assert "git add --all -- public" in sync_script
+    assert "git diff --cached --quiet" in sync_script
+    assert "git commit" in sync_script
+    assert "git push" in sync_script
+    assert "git push --force" not in sync_script
+    assert deploy["needs"] == ["build", "sync-generated-api"]
     assert deploy["if"] == "github.ref == 'refs/heads/main'"
     assert deploy["permissions"] == {"pages": "write", "id-token": "write"}
     assert any("deploy-pages@" in use for use in step_uses(deploy))
     assert f"actions/deploy-pages@{DEPLOY_PAGES_V4_SHA}" in step_uses(deploy)
-    assert all(SHA_PIN.fullmatch(use) for use in step_uses(build) + step_uses(deploy))
+    assert all(
+        SHA_PIN.fullmatch(use)
+        for use in step_uses(build) + step_uses(sync) + step_uses(deploy)
+    )
 
 
 def test_git_porcelain_check_reports_an_untracked_generated_airport_json(tmp_path: Path):
