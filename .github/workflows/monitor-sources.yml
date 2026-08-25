@@ -61,7 +61,7 @@ jobs:
             # changes with different fingerprints remain distinct issues.
             marker="Monitoring key: \`$key\`"
             number="$(jq -r --arg marker "$marker" \
-              '[.[] | select((.body // "") | contains($marker)) | .number] \
+              '[.[] | select((.body // "") | contains($marker)) | .number]
               | sort | first // empty' "$open_issues")"
             if [ -n "$number" ]; then
               gh issue comment "$number" --body-file "$body_file"

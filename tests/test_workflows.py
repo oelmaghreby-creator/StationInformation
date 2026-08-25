@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from pathlib import Path
 import json
+import os
 import re
 import subprocess
 
@@ -115,6 +116,42 @@ def test_monitor_workflow_uses_exact_keys_and_cannot_modify_rule_data():
     assert "git commit" not in script
     assert "gh pr" not in script
     assert all(SHA_PIN.fullmatch(use) for use in step_uses(monitor))
+
+
+def test_monitor_issue_step_executes_valid_jq_filter(tmp_path: Path):
+    _, workflow = load_workflow("monitor-sources.yml")
+    steps = workflow["jobs"]["monitor"]["steps"]
+    issue_step = next(
+        step for step in steps
+        if isinstance(step, dict) and step.get("name") == "Create or update exact-key review issues"
+    )
+    drafts = tmp_path / ".crew-customs-monitor/issues.json"
+    drafts.parent.mkdir()
+    drafts.write_text(
+        json.dumps([{"key": "source:old:new", "title": "Changed", "body": "Review"}]),
+        encoding="utf-8",
+    )
+    fake_bin = tmp_path / "bin"
+    fake_bin.mkdir()
+    fake_gh = fake_bin / "gh"
+    fake_gh.write_text(
+        "#!/bin/sh\n"
+        "if [ \"$1 $2\" = \"issue list\" ]; then printf '[]\\n'; fi\n",
+        encoding="utf-8",
+    )
+    fake_gh.chmod(0o755)
+    environment = {
+        **os.environ,
+        "PATH": f"{fake_bin}:{os.environ['PATH']}",
+        "RUNNER_TEMP": str(tmp_path),
+    }
+
+    result = subprocess.run(
+        ["bash", "-c", issue_step["run"]], cwd=tmp_path, env=environment,
+        text=True, capture_output=True, check=False,
+    )
+
+    assert result.returncode == 0, result.stderr
 
 
 def test_workflow_shell_steps_parse_as_bash():
