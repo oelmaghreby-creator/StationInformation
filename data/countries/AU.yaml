@@ -1,0 +1,45 @@
+iso2: AU
+countryName: Australia
+customs:
+  foodAndAgriculture: []
+  medicines: []
+  cashDeclaration: {}
+  alcohol:
+    rules:
+      - text: >-
+          A crew member aged 18 or over may bring 2.25 litres of alcoholic
+          beverages into Australia duty free in accompanied baggage, regardless
+          of where or how the beverages were purchased.
+        sourceIds:
+          - au-abf-duty-free-crew
+  tobacco: {}
+  prohibitedItems: []
+  restrictedItems: []
+  declarationRequirements:
+    - text: >-
+        If a crew member exceeds a duty-free limit, duty and tax apply to all
+        items of that type, not only the excess; the goods must be declared and
+        proof of purchase provided.
+      sourceIds:
+        - au-abf-duty-free-crew
+baggageSecurity:
+  handBaggage:
+    sharpObjects: []
+    liquids: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+  checkedCargoBag:
+    knivesAndSharpObjects: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+crewNotes:
+  - text: >-
+      The crew-member duty-free limit for general goods is AUD450. General goods
+      include gifts, souvenirs, cameras, electronics, leather goods, perfume
+      concentrates, jewellery, watches and sporting equipment; the concession
+      does not apply to commercial goods.
+    sourceIds:
+      - au-abf-duty-free-crew
+reviewStatus: needs_review
+lastVerified: '2026-08-25'
+nextReviewDue: '2026-11-25'

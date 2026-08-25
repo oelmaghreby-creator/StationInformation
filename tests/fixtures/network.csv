@@ -1,0 +1,4 @@
+Route,City,Country,Country_Code,Region,Flight No.,Related_Hotel,Flag_Url
+JFK,New York,United States,US,Americas,EY001,Hotel A,https://private.example
+JFK,New York,United States,US,Americas,EY003,Hotel A,https://private.example
+AUH,Abu Dhabi,United Arab Emirates,AE,Asia,EY002,Hotel B,https://private.example

@@ -1,0 +1,13 @@
+id: sg-customs-crew-concessions
+authorityName: Singapore Customs
+pageTitle: Duty-Free Concession and GST Import Relief
+url: https://www.customs.gov.sg/at-customs/arriving-in-singapore/duty-free-concession-gst-relief/
+jurisdiction: SG
+accessedAt: '2026-08-25'
+fingerprint: sha256:dddf0cf71c3be06cb3e006fa2c6432663edbdc1fc294c48eab3d97957b72de9f
+supportsFields:
+  - crewNotes
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.declarationRequirements
+sourceType: customs

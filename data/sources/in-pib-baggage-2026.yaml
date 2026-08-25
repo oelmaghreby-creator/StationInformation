@@ -1,0 +1,10 @@
+id: in-pib-baggage-2026
+authorityName: Press Information Bureau, Ministry of Finance
+pageTitle: Government notifies Baggage Rules, 2026
+url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2222384
+jurisdiction: IN
+accessedAt: '2026-08-25'
+fingerprint: sha256:95eb815155aa789fbcc0e31c4d6001973bf00a3d20b82e7b87afe972419d957a
+supportsFields:
+  - crewNotes
+sourceType: government

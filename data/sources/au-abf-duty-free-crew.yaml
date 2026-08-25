@@ -1,0 +1,12 @@
+id: au-abf-duty-free-crew
+authorityName: Australian Border Force
+pageTitle: Duty free
+url: https://www.abf.gov.au/entering-and-leaving-australia/duty-free
+jurisdiction: AU
+accessedAt: '2026-08-25'
+fingerprint: sha256:ba17b704fbbe12dd25568f9745360a8e2ffd0d7e56df01c57ed90e190f6e01b3
+supportsFields:
+  - crewNotes
+  - customs.alcohol.rules
+  - customs.declarationRequirements
+sourceType: customs

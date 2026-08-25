@@ -1,0 +1,12 @@
+id: sin-changi-power-banks-2026
+authorityName: Changi Airport Group
+pageTitle: Security and Baggage Restrictions at Changi Airport
+url: https://www.changiairport.com/en/fly/security-and-baggage-restrictions.html
+jurisdiction: SG
+accessedAt: '2026-08-25'
+fingerprint: sha256:25965038235faac0874885dc19e0339d0291e3372cbdeb6b2fe605ae61b392fd
+supportsFields:
+  - crewNotes
+  - baggageSecurityOverrides.handBaggage.batteriesAndElectronics
+  - baggageSecurityOverrides.checkedCargoBag.batteriesAndElectronics
+sourceType: airport_authority

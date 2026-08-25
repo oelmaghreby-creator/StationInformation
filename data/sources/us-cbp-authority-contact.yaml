@@ -1,0 +1,10 @@
+id: us-cbp-authority-contact
+authorityName: USA.gov
+pageTitle: U.S. Customs and Border Protection
+url: https://www.usa.gov/agencies/u-s-customs-and-border-protection
+jurisdiction: US
+accessedAt: '2026-08-25'
+fingerprint: sha256:7d270db204cc19e8ab9e63db4a24864a0bab6dc3422cb152461cbd3570cf43c1
+supportsFields:
+  - crewNotes
+sourceType: government

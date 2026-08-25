@@ -1,0 +1,1062 @@
+{
+  "airports": [
+    {
+      "airportName": "ADD airport (research pending)",
+      "city": "Addis Ababa",
+      "country": {
+        "iso2": "ET",
+        "name": "Ethiopia"
+      },
+      "endpoint": "/api/v1/airports/ADD.json",
+      "iataCode": "ADD",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "AER airport (research pending)",
+      "city": "Sochi",
+      "country": {
+        "iso2": "RU",
+        "name": "Russia"
+      },
+      "endpoint": "/api/v1/airports/AER.json",
+      "iataCode": "AER",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "AGP airport (research pending)",
+      "city": "Málaga",
+      "country": {
+        "iso2": "ES",
+        "name": "Spain"
+      },
+      "endpoint": "/api/v1/airports/AGP.json",
+      "iataCode": "AGP",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "AMD airport (research pending)",
+      "city": "Ahmedabad",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/AMD.json",
+      "iataCode": "AMD",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "AMM airport (research pending)",
+      "city": "Amman",
+      "country": {
+        "iso2": "JO",
+        "name": "Jordan"
+      },
+      "endpoint": "/api/v1/airports/AMM.json",
+      "iataCode": "AMM",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "AMS airport (research pending)",
+      "city": "Amsterdam",
+      "country": {
+        "iso2": "NL",
+        "name": "Netherlands"
+      },
+      "endpoint": "/api/v1/airports/AMS.json",
+      "iataCode": "AMS",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "ATH airport (research pending)",
+      "city": "Spata-Artemida",
+      "country": {
+        "iso2": "GR",
+        "name": "Greece"
+      },
+      "endpoint": "/api/v1/airports/ATH.json",
+      "iataCode": "ATH",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "ATL airport (research pending)",
+      "city": "Atlanta",
+      "country": {
+        "iso2": "US",
+        "name": "United States"
+      },
+      "endpoint": "/api/v1/airports/ATL.json",
+      "iataCode": "ATL",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "BAH airport (research pending)",
+      "city": "Manama",
+      "country": {
+        "iso2": "BH",
+        "name": "Bahrain"
+      },
+      "endpoint": "/api/v1/airports/BAH.json",
+      "iataCode": "BAH",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "BCN airport (research pending)",
+      "city": "Barcelona",
+      "country": {
+        "iso2": "ES",
+        "name": "Spain"
+      },
+      "endpoint": "/api/v1/airports/BCN.json",
+      "iataCode": "BCN",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "BEY airport (research pending)",
+      "city": "Beirut",
+      "country": {
+        "iso2": "LB",
+        "name": "Lebanon"
+      },
+      "endpoint": "/api/v1/airports/BEY.json",
+      "iataCode": "BEY",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "BKK airport (research pending)",
+      "city": "Bangkok",
+      "country": {
+        "iso2": "TH",
+        "name": "Thailand"
+      },
+      "endpoint": "/api/v1/airports/BKK.json",
+      "iataCode": "BKK",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "BLR airport (research pending)",
+      "city": "Bengaluru",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/BLR.json",
+      "iataCode": "BLR",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "BOM airport (research pending)",
+      "city": "Mumbai",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/BOM.json",
+      "iataCode": "BOM",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "BOS airport (research pending)",
+      "city": "Boston",
+      "country": {
+        "iso2": "US",
+        "name": "United States"
+      },
+      "endpoint": "/api/v1/airports/BOS.json",
+      "iataCode": "BOS",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "BRU airport (research pending)",
+      "city": "Zaventem",
+      "country": {
+        "iso2": "BE",
+        "name": "Belgium"
+      },
+      "endpoint": "/api/v1/airports/BRU.json",
+      "iataCode": "BRU",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "CAI airport (research pending)",
+      "city": "Cairo",
+      "country": {
+        "iso2": "EG",
+        "name": "Egypt"
+      },
+      "endpoint": "/api/v1/airports/CAI.json",
+      "iataCode": "CAI",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "CCJ airport (research pending)",
+      "city": "Calicut",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/CCJ.json",
+      "iataCode": "CCJ",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "CCU airport (research pending)",
+      "city": "Kolkata",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/CCU.json",
+      "iataCode": "CCU",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "CDG airport (research pending)",
+      "city": "Paris",
+      "country": {
+        "iso2": "FR",
+        "name": "France"
+      },
+      "endpoint": "/api/v1/airports/CDG.json",
+      "iataCode": "CDG",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "CGK airport (research pending)",
+      "city": "Jakarta",
+      "country": {
+        "iso2": "ID",
+        "name": "Indonesia"
+      },
+      "endpoint": "/api/v1/airports/CGK.json",
+      "iataCode": "CGK",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "CLT airport (research pending)",
+      "city": "Charlotte",
+      "country": {
+        "iso2": "US",
+        "name": "United States"
+      },
+      "endpoint": "/api/v1/airports/CLT.json",
+      "iataCode": "CLT",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "CMB airport (research pending)",
+      "city": "Colombo",
+      "country": {
+        "iso2": "LK",
+        "name": "Sri Lanka"
+      },
+      "endpoint": "/api/v1/airports/CMB.json",
+      "iataCode": "CMB",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "CMN airport (research pending)",
+      "city": "Casablanca",
+      "country": {
+        "iso2": "MA",
+        "name": "Morocco"
+      },
+      "endpoint": "/api/v1/airports/CMN.json",
+      "iataCode": "CMN",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "COK airport (research pending)",
+      "city": "Kochi",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/COK.json",
+      "iataCode": "COK",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "CPH airport (research pending)",
+      "city": "Copenhagen",
+      "country": {
+        "iso2": "DK",
+        "name": "Denmark"
+      },
+      "endpoint": "/api/v1/airports/CPH.json",
+      "iataCode": "CPH",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "DAC airport (research pending)",
+      "city": "Dhaka",
+      "country": {
+        "iso2": "BD",
+        "name": "Bangladesh"
+      },
+      "endpoint": "/api/v1/airports/DAC.json",
+      "iataCode": "DAC",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "DAM airport (research pending)",
+      "city": "Damascus",
+      "country": {
+        "iso2": "SY",
+        "name": "Syria"
+      },
+      "endpoint": "/api/v1/airports/DAM.json",
+      "iataCode": "DAM",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "DBB airport (research pending)",
+      "city": "El Alamein",
+      "country": {
+        "iso2": "EG",
+        "name": "Egypt"
+      },
+      "endpoint": "/api/v1/airports/DBB.json",
+      "iataCode": "DBB",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "DEL airport (research pending)",
+      "city": "New Delhi",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/DEL.json",
+      "iataCode": "DEL",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "DMM airport (research pending)",
+      "city": "Ad Dammam",
+      "country": {
+        "iso2": "SA",
+        "name": "Saudi Arabia"
+      },
+      "endpoint": "/api/v1/airports/DMM.json",
+      "iataCode": "DMM",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "DOH airport (research pending)",
+      "city": "Doha",
+      "country": {
+        "iso2": "QA",
+        "name": "Qatar"
+      },
+      "endpoint": "/api/v1/airports/DOH.json",
+      "iataCode": "DOH",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "DPS airport (research pending)",
+      "city": "Kuta, Badung",
+      "country": {
+        "iso2": "ID",
+        "name": "Indonesia"
+      },
+      "endpoint": "/api/v1/airports/DPS.json",
+      "iataCode": "DPS",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "DUB airport (research pending)",
+      "city": "Dublin",
+      "country": {
+        "iso2": "IE",
+        "name": "Ireland"
+      },
+      "endpoint": "/api/v1/airports/DUB.json",
+      "iataCode": "DUB",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "DUS airport (research pending)",
+      "city": "Düsseldorf",
+      "country": {
+        "iso2": "DE",
+        "name": "Germany"
+      },
+      "endpoint": "/api/v1/airports/DUS.json",
+      "iataCode": "DUS",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "ELQ airport (research pending)",
+      "city": "Qassim",
+      "country": {
+        "iso2": "SA",
+        "name": "Saudi Arabia"
+      },
+      "endpoint": "/api/v1/airports/ELQ.json",
+      "iataCode": "ELQ",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "FCO airport (research pending)",
+      "city": "Rome",
+      "country": {
+        "iso2": "IT",
+        "name": "Italy"
+      },
+      "endpoint": "/api/v1/airports/FCO.json",
+      "iataCode": "FCO",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "FRA airport (research pending)",
+      "city": "Frankfurt am Main",
+      "country": {
+        "iso2": "DE",
+        "name": "Germany"
+      },
+      "endpoint": "/api/v1/airports/FRA.json",
+      "iataCode": "FRA",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "GVA airport (research pending)",
+      "city": "Geneva",
+      "country": {
+        "iso2": "CH",
+        "name": "Switzerland"
+      },
+      "endpoint": "/api/v1/airports/GVA.json",
+      "iataCode": "GVA",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "HAN airport (research pending)",
+      "city": "Hanoi",
+      "country": {
+        "iso2": "VN",
+        "name": "Vietnam"
+      },
+      "endpoint": "/api/v1/airports/HAN.json",
+      "iataCode": "HAN",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "HKG airport (research pending)",
+      "city": "Hong Kong",
+      "country": {
+        "iso2": "HK",
+        "name": "Hong Kong"
+      },
+      "endpoint": "/api/v1/airports/HKG.json",
+      "iataCode": "HKG",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "HKT airport (research pending)",
+      "city": "Phuket",
+      "country": {
+        "iso2": "TH",
+        "name": "Thailand"
+      },
+      "endpoint": "/api/v1/airports/HKT.json",
+      "iataCode": "HKT",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "HYD airport (research pending)",
+      "city": "Hyderabad",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/HYD.json",
+      "iataCode": "HYD",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "IAD airport (research pending)",
+      "city": "Dulles",
+      "country": {
+        "iso2": "US",
+        "name": "United States"
+      },
+      "endpoint": "/api/v1/airports/IAD.json",
+      "iataCode": "IAD",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "ICN airport (research pending)",
+      "city": "Seoul",
+      "country": {
+        "iso2": "KR",
+        "name": "South Korea"
+      },
+      "endpoint": "/api/v1/airports/ICN.json",
+      "iataCode": "ICN",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "ISB airport (research pending)",
+      "city": "Attock",
+      "country": {
+        "iso2": "PK",
+        "name": "Pakistan"
+      },
+      "endpoint": "/api/v1/airports/ISB.json",
+      "iataCode": "ISB",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "IST airport (research pending)",
+      "city": "Istanbul",
+      "country": {
+        "iso2": "TR",
+        "name": "Turkey"
+      },
+      "endpoint": "/api/v1/airports/IST.json",
+      "iataCode": "IST",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "JAI airport (research pending)",
+      "city": "Jaipur",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/JAI.json",
+      "iataCode": "JAI",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "JED airport (research pending)",
+      "city": "Jeddah",
+      "country": {
+        "iso2": "SA",
+        "name": "Saudi Arabia"
+      },
+      "endpoint": "/api/v1/airports/JED.json",
+      "iataCode": "JED",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "JFK airport (research pending)",
+      "city": "New York",
+      "country": {
+        "iso2": "US",
+        "name": "United States"
+      },
+      "endpoint": "/api/v1/airports/JFK.json",
+      "iataCode": "JFK",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "JMK airport (research pending)",
+      "city": "Mykonos",
+      "country": {
+        "iso2": "GR",
+        "name": "Greece"
+      },
+      "endpoint": "/api/v1/airports/JMK.json",
+      "iataCode": "JMK",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "JNB airport (research pending)",
+      "city": "Johannesburg",
+      "country": {
+        "iso2": "ZA",
+        "name": "South Africa"
+      },
+      "endpoint": "/api/v1/airports/JNB.json",
+      "iataCode": "JNB",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "JTR airport (research pending)",
+      "city": "Santorini Island",
+      "country": {
+        "iso2": "GR",
+        "name": "Greece"
+      },
+      "endpoint": "/api/v1/airports/JTR.json",
+      "iataCode": "JTR",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "KBL airport (research pending)",
+      "city": "Kabul",
+      "country": {
+        "iso2": "AF",
+        "name": "Afghanistan"
+      },
+      "endpoint": "/api/v1/airports/KBL.json",
+      "iataCode": "KBL",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "KHI airport (research pending)",
+      "city": "Karachi",
+      "country": {
+        "iso2": "PK",
+        "name": "Pakistan"
+      },
+      "endpoint": "/api/v1/airports/KHI.json",
+      "iataCode": "KHI",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "KIX airport (research pending)",
+      "city": "Osaka",
+      "country": {
+        "iso2": "JP",
+        "name": "Japan"
+      },
+      "endpoint": "/api/v1/airports/KIX.json",
+      "iataCode": "KIX",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "KRK airport (research pending)",
+      "city": "Balice",
+      "country": {
+        "iso2": "PL",
+        "name": "Poland"
+      },
+      "endpoint": "/api/v1/airports/KRK.json",
+      "iataCode": "KRK",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "KTI airport (research pending)",
+      "city": "Phnom Penh",
+      "country": {
+        "iso2": "KH",
+        "name": "Cambodia"
+      },
+      "endpoint": "/api/v1/airports/KTI.json",
+      "iataCode": "KTI",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "KUL airport (research pending)",
+      "city": "Sepang",
+      "country": {
+        "iso2": "MY",
+        "name": "Malaysia"
+      },
+      "endpoint": "/api/v1/airports/KUL.json",
+      "iataCode": "KUL",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "KWI airport (research pending)",
+      "city": "Kuwait City",
+      "country": {
+        "iso2": "KW",
+        "name": "Kuwait"
+      },
+      "endpoint": "/api/v1/airports/KWI.json",
+      "iataCode": "KWI",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "LHE airport (research pending)",
+      "city": "Lahore",
+      "country": {
+        "iso2": "PK",
+        "name": "Pakistan"
+      },
+      "endpoint": "/api/v1/airports/LHE.json",
+      "iataCode": "LHE",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "LHR airport (research pending)",
+      "city": "London",
+      "country": {
+        "iso2": "GB",
+        "name": "United Kingdom"
+      },
+      "endpoint": "/api/v1/airports/LHR.json",
+      "iataCode": "LHR",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "LIS airport (research pending)",
+      "city": "Lisbon",
+      "country": {
+        "iso2": "PT",
+        "name": "Portugal"
+      },
+      "endpoint": "/api/v1/airports/LIS.json",
+      "iataCode": "LIS",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "MAA airport (research pending)",
+      "city": "Chennai",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/MAA.json",
+      "iataCode": "MAA",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "MAD airport (research pending)",
+      "city": "Madrid",
+      "country": {
+        "iso2": "ES",
+        "name": "Spain"
+      },
+      "endpoint": "/api/v1/airports/MAD.json",
+      "iataCode": "MAD",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "MAN airport (research pending)",
+      "city": "Manchester, Greater Manchester",
+      "country": {
+        "iso2": "GB",
+        "name": "United Kingdom"
+      },
+      "endpoint": "/api/v1/airports/MAN.json",
+      "iataCode": "MAN",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "MCT airport (research pending)",
+      "city": "Muscat/Seeb",
+      "country": {
+        "iso2": "OM",
+        "name": "Oman"
+      },
+      "endpoint": "/api/v1/airports/MCT.json",
+      "iataCode": "MCT",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "MED airport (research pending)",
+      "city": "Medina",
+      "country": {
+        "iso2": "SA",
+        "name": "Saudi Arabia"
+      },
+      "endpoint": "/api/v1/airports/MED.json",
+      "iataCode": "MED",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "MEL airport (research pending)",
+      "city": "Melbourne",
+      "country": {
+        "iso2": "AU",
+        "name": "Australia"
+      },
+      "endpoint": "/api/v1/airports/MEL.json",
+      "iataCode": "MEL",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "MLE airport (research pending)",
+      "city": "Malé",
+      "country": {
+        "iso2": "MV",
+        "name": "Maldives"
+      },
+      "endpoint": "/api/v1/airports/MLE.json",
+      "iataCode": "MLE",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "MNL airport (research pending)",
+      "city": "Manila",
+      "country": {
+        "iso2": "PH",
+        "name": "Philippines"
+      },
+      "endpoint": "/api/v1/airports/MNL.json",
+      "iataCode": "MNL",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "MUC airport (research pending)",
+      "city": "Munich",
+      "country": {
+        "iso2": "DE",
+        "name": "Germany"
+      },
+      "endpoint": "/api/v1/airports/MUC.json",
+      "iataCode": "MUC",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "MXP airport (research pending)",
+      "city": "Ferno",
+      "country": {
+        "iso2": "IT",
+        "name": "Italy"
+      },
+      "endpoint": "/api/v1/airports/MXP.json",
+      "iataCode": "MXP",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "NBO airport (research pending)",
+      "city": "Nairobi",
+      "country": {
+        "iso2": "KE",
+        "name": "Kenya"
+      },
+      "endpoint": "/api/v1/airports/NBO.json",
+      "iataCode": "NBO",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "NCE airport (research pending)",
+      "city": "Nice, Alpes-Maritimes",
+      "country": {
+        "iso2": "FR",
+        "name": "France"
+      },
+      "endpoint": "/api/v1/airports/NCE.json",
+      "iataCode": "NCE",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "NRT airport (research pending)",
+      "city": "Narita",
+      "country": {
+        "iso2": "JP",
+        "name": "Japan"
+      },
+      "endpoint": "/api/v1/airports/NRT.json",
+      "iataCode": "NRT",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "ORD airport (research pending)",
+      "city": "Chicago",
+      "country": {
+        "iso2": "US",
+        "name": "United States"
+      },
+      "endpoint": "/api/v1/airports/ORD.json",
+      "iataCode": "ORD",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "PEW airport (research pending)",
+      "city": "Peshawar",
+      "country": {
+        "iso2": "PK",
+        "name": "Pakistan"
+      },
+      "endpoint": "/api/v1/airports/PEW.json",
+      "iataCode": "PEW",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "PKX airport (research pending)",
+      "city": "Beijing",
+      "country": {
+        "iso2": "CN",
+        "name": "China"
+      },
+      "endpoint": "/api/v1/airports/PKX.json",
+      "iataCode": "PKX",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "PMI airport (research pending)",
+      "city": "Palma de Mallorca",
+      "country": {
+        "iso2": "ES",
+        "name": "Spain"
+      },
+      "endpoint": "/api/v1/airports/PMI.json",
+      "iataCode": "PMI",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "PRG airport (research pending)",
+      "city": "Prague",
+      "country": {
+        "iso2": "CZ",
+        "name": "Czech Republic"
+      },
+      "endpoint": "/api/v1/airports/PRG.json",
+      "iataCode": "PRG",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "RUH airport (research pending)",
+      "city": "Riyadh",
+      "country": {
+        "iso2": "SA",
+        "name": "Saudi Arabia"
+      },
+      "endpoint": "/api/v1/airports/RUH.json",
+      "iataCode": "RUH",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "Singapore Changi Airport",
+      "city": "Singapore",
+      "country": {
+        "iso2": "SG",
+        "name": "Singapore"
+      },
+      "endpoint": "/api/v1/airports/SIN.json",
+      "iataCode": "SIN",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "SLL airport (research pending)",
+      "city": "Salalah",
+      "country": {
+        "iso2": "OM",
+        "name": "Oman"
+      },
+      "endpoint": "/api/v1/airports/SLL.json",
+      "iataCode": "SLL",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "SVO airport (research pending)",
+      "city": "Moscow",
+      "country": {
+        "iso2": "RU",
+        "name": "Russia"
+      },
+      "endpoint": "/api/v1/airports/SVO.json",
+      "iataCode": "SVO",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "SYD airport (research pending)",
+      "city": "Sydney",
+      "country": {
+        "iso2": "AU",
+        "name": "Australia"
+      },
+      "endpoint": "/api/v1/airports/SYD.json",
+      "iataCode": "SYD",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "TAS airport (research pending)",
+      "city": "Tashkent",
+      "country": {
+        "iso2": "UZ",
+        "name": "Uzbekistan"
+      },
+      "endpoint": "/api/v1/airports/TAS.json",
+      "iataCode": "TAS",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "TLV airport (research pending)",
+      "city": "Tel Aviv",
+      "country": {
+        "iso2": "IL",
+        "name": "Israel"
+      },
+      "endpoint": "/api/v1/airports/TLV.json",
+      "iataCode": "TLV",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "TPE airport (research pending)",
+      "city": "Taoyuan",
+      "country": {
+        "iso2": "TW",
+        "name": "Taiwan"
+      },
+      "endpoint": "/api/v1/airports/TPE.json",
+      "iataCode": "TPE",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "TRV airport (research pending)",
+      "city": "Thiruvananthapuram",
+      "country": {
+        "iso2": "IN",
+        "name": "India"
+      },
+      "endpoint": "/api/v1/airports/TRV.json",
+      "iataCode": "TRV",
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "TUN airport (research pending)",
+      "city": "Tunis",
+      "country": {
+        "iso2": "TN",
+        "name": "Tunisia"
+      },
+      "endpoint": "/api/v1/airports/TUN.json",
+      "iataCode": "TUN",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "VIE airport (research pending)",
+      "city": "Vienna",
+      "country": {
+        "iso2": "AT",
+        "name": "Austria"
+      },
+      "endpoint": "/api/v1/airports/VIE.json",
+      "iataCode": "VIE",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "WAW airport (research pending)",
+      "city": "Warsaw",
+      "country": {
+        "iso2": "PL",
+        "name": "Poland"
+      },
+      "endpoint": "/api/v1/airports/WAW.json",
+      "iataCode": "WAW",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "YYZ airport (research pending)",
+      "city": "Toronto",
+      "country": {
+        "iso2": "CA",
+        "name": "Canada"
+      },
+      "endpoint": "/api/v1/airports/YYZ.json",
+      "iataCode": "YYZ",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "ZNZ airport (research pending)",
+      "city": "Zanzibar",
+      "country": {
+        "iso2": "TZ",
+        "name": "Tanzania"
+      },
+      "endpoint": "/api/v1/airports/ZNZ.json",
+      "iataCode": "ZNZ",
+      "reviewStatus": "research_pending"
+    },
+    {
+      "airportName": "ZRH airport (research pending)",
+      "city": "Zurich",
+      "country": {
+        "iso2": "CH",
+        "name": "Switzerland"
+      },
+      "endpoint": "/api/v1/airports/ZRH.json",
+      "iataCode": "ZRH",
+      "reviewStatus": "research_pending"
+    }
+  ],
+  "datasetVersion": "1.0.0",
+  "schemaVersion": "1.0.0"
+}

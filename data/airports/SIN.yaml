@@ -1,0 +1,45 @@
+iataCode: SIN
+airportName: Singapore Changi Airport
+city: Singapore
+countryIso2: SG
+crewNotes:
+  - text: >-
+      For departures from Singapore Changi Airport, the power-bank restrictions
+      have no exceptions for any group of travellers, including operating crew.
+      They apply from 15 April 2026 at 00:01 Singapore time.
+    sourceIds:
+      - sin-changi-power-banks-2026
+baggageSecurityOverrides:
+  handBaggage:
+    batteriesAndElectronics:
+      - text: >-
+          For departures from Singapore Changi Airport, a maximum of two power
+          banks per person may be carried, and they must be in hand baggage.
+          Anyone carrying more than two must dispose of the excess before
+          departure.
+        sourceIds:
+          - sin-changi-power-banks-2026
+      - text: >-
+          For departures from Singapore Changi Airport, power banks rated at no
+          more than 100Wh are allowed. Power banks over 100Wh but not exceeding
+          160Wh require carrier approval. Power banks over 160Wh are prohibited.
+          The maximum remains two in total regardless of rating.
+        sourceIds:
+          - sin-changi-power-banks-2026
+      - text: >-
+          For departures from Singapore Changi Airport, each power bank must be
+          individually protected against short circuit. Power banks must not be
+          charged onboard, and using them to charge a portable electronic device
+          onboard is advised against.
+        sourceIds:
+          - sin-changi-power-banks-2026
+  checkedCargoBag:
+    batteriesAndElectronics:
+      - text: >-
+          For departures from Singapore Changi Airport, power banks are
+          prohibited in checked baggage.
+        sourceIds:
+          - sin-changi-power-banks-2026
+reviewStatus: needs_review
+lastVerified: '2026-08-25'
+nextReviewDue: '2026-11-25'

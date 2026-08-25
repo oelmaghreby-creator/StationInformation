@@ -1,0 +1,31 @@
+iso2: SA
+countryName: Saudi Arabia
+customs:
+  foodAndAgriculture: []
+  medicines: []
+  cashDeclaration: {}
+  alcohol: {}
+  tobacco: {}
+  prohibitedItems: []
+  restrictedItems: []
+  declarationRequirements: []
+baggageSecurity:
+  handBaggage:
+    sharpObjects: []
+    liquids: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+  checkedCargoBag:
+    knivesAndSharpObjects: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+crewNotes:
+  - text: >-
+      No verified crew-specific allowance was identified in the listed official
+      sources; contact the station or authority before carrying restricted
+      goods.
+    sourceIds:
+      - sa-zatca-traveller-luggage
+reviewStatus: research_pending
+lastVerified: null
+nextReviewDue: null

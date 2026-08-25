@@ -1,0 +1,10 @@
+id: in-mumbai-customs-crew-2026
+authorityName: Mumbai Customs Zone III, Airport Commissionerate
+pageTitle: Arrival Passenger Guidelines
+url: https://mumbaicustomszone3.gov.in/aarrival-passenger-guidelines
+jurisdiction: IN
+accessedAt: '2026-08-25'
+fingerprint: sha256:7351db7fea526b018d023eb918fb541d44b5a14c9a13f8140329747a201b7941
+supportsFields:
+  - crewNotes
+sourceType: customs

@@ -1,0 +1,59 @@
+{
+  "airportName": "JFK airport (research pending)",
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "city": "New York",
+  "country": {
+    "iso2": "US",
+    "name": "United States"
+  },
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "us-cbp-authority-contact"
+      ],
+      "text": "No verified crew-specific allowance was identified in the listed official sources; contact the station or authority before carrying restricted goods."
+    }
+  ],
+  "customs": {
+    "alcohol": {},
+    "cashDeclaration": {},
+    "declarationRequirements": [],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {}
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iataCode": "JFK",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "research_pending",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "USA.gov",
+      "id": "us-cbp-authority-contact",
+      "jurisdiction": "US",
+      "pageTitle": "U.S. Customs and Border Protection",
+      "sourceType": "government",
+      "supportsFields": [
+        "crewNotes"
+      ],
+      "url": "https://www.usa.gov/agencies/u-s-customs-and-border-protection"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+id: gb-border-force-travelling
+authorityName: HM Revenue & Customs and Border Force
+pageTitle: 'UK customs information: England, Scotland and Wales'
+url: https://www.gov.uk/government/publications/travelling-to-the-uk/travelling-to-the-uk
+jurisdiction: GB
+accessedAt: '2026-08-25'
+fingerprint: sha256:c088e41f01fcf0206b450cd87f26854c2663012f093cfcc3ad5d23a1d7d88257
+supportsFields:
+  - crewNotes
+  - customs.cashDeclaration.rules
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+sourceType: customs

@@ -1,0 +1,31 @@
+iso2: CA
+countryName: Canada
+customs:
+  foodAndAgriculture: []
+  medicines: []
+  cashDeclaration: {}
+  alcohol: {}
+  tobacco: {}
+  prohibitedItems: []
+  restrictedItems: []
+  declarationRequirements: []
+baggageSecurity:
+  handBaggage:
+    sharpObjects: []
+    liquids: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+  checkedCargoBag:
+    knivesAndSharpObjects: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+crewNotes:
+  - text: >-
+      No verified crew-specific allowance was identified in the listed official
+      sources; contact the station or authority before carrying restricted
+      goods.
+    sourceIds:
+      - ca-cbsa-authority-contact
+reviewStatus: research_pending
+lastVerified: null
+nextReviewDue: null

@@ -1,0 +1,82 @@
+{
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "countryName": "Singapore",
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "sg-customs-crew-concessions"
+      ],
+      "text": "Crew members are not eligible for GST import relief on newly acquired goods brought into Singapore."
+    }
+  ],
+  "customs": {
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "sg-customs-crew-concessions"
+          ],
+          "text": "A bona fide crew member aged 18 or over who spent at least 48 hours outside Singapore, is not arriving from Malaysia, and carries liquor for personal consumption may choose one duty-free option: 0.25 litre spirits plus 1 litre wine; 0.25 litre spirits plus 1 litre beer; 0.25 litre spirits only; 1 litre wine only; or 1 litre beer only."
+        }
+      ]
+    },
+    "cashDeclaration": {},
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "sg-customs-crew-concessions"
+        ],
+        "text": "Crew must pay duty and GST on liquor exceeding the applicable crew concession and on goods carried for or on behalf of another person, and must make an accurate and complete declaration at the Red Channel."
+      }
+    ],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "sg-customs-crew-concessions"
+          ],
+          "text": "There is no duty-free concession or GST import relief for cigarettes or tobacco products. All such products are subject to duty and GST, and products that do not meet Singapore's standardised-packaging requirements are not allowed to be imported."
+        }
+      ]
+    }
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iso2": "SG",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "needs_review",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "Singapore Customs",
+      "id": "sg-customs-crew-concessions",
+      "jurisdiction": "SG",
+      "pageTitle": "Duty-Free Concession and GST Import Relief",
+      "sourceType": "customs",
+      "supportsFields": [
+        "crewNotes",
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.customs.gov.sg/at-customs/arriving-in-singapore/duty-free-concession-gst-relief/"
+    }
+  ]
+}

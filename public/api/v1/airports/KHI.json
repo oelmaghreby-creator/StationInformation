@@ -1,0 +1,39 @@
+{
+  "airportName": "KHI airport (research pending)",
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "city": "Karachi",
+  "country": {
+    "iso2": "PK",
+    "name": "Pakistan"
+  },
+  "crewNotes": [],
+  "customs": {
+    "alcohol": {},
+    "cashDeclaration": {},
+    "declarationRequirements": [],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {}
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iataCode": "KHI",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "research_pending",
+  "schemaVersion": "1.0.0",
+  "sources": []
+}

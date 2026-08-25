@@ -1,0 +1,127 @@
+{
+  "airportName": "Singapore Changi Airport",
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [
+        {
+          "sourceIds": [
+            "sin-changi-power-banks-2026"
+          ],
+          "text": "For departures from Singapore Changi Airport, power banks are prohibited in checked baggage."
+        }
+      ],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [
+        {
+          "sourceIds": [
+            "sin-changi-power-banks-2026"
+          ],
+          "text": "For departures from Singapore Changi Airport, a maximum of two power banks per person may be carried, and they must be in hand baggage. Anyone carrying more than two must dispose of the excess before departure."
+        },
+        {
+          "sourceIds": [
+            "sin-changi-power-banks-2026"
+          ],
+          "text": "For departures from Singapore Changi Airport, power banks rated at no more than 100Wh are allowed. Power banks over 100Wh but not exceeding 160Wh require carrier approval. Power banks over 160Wh are prohibited. The maximum remains two in total regardless of rating."
+        },
+        {
+          "sourceIds": [
+            "sin-changi-power-banks-2026"
+          ],
+          "text": "For departures from Singapore Changi Airport, each power bank must be individually protected against short circuit. Power banks must not be charged onboard, and using them to charge a portable electronic device onboard is advised against."
+        }
+      ],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "city": "Singapore",
+  "country": {
+    "iso2": "SG",
+    "name": "Singapore"
+  },
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "sin-changi-power-banks-2026"
+      ],
+      "text": "For departures from Singapore Changi Airport, the power-bank restrictions have no exceptions for any group of travellers, including operating crew. They apply from 15 April 2026 at 00:01 Singapore time."
+    }
+  ],
+  "customs": {
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "sg-customs-crew-concessions"
+          ],
+          "text": "A bona fide crew member aged 18 or over who spent at least 48 hours outside Singapore, is not arriving from Malaysia, and carries liquor for personal consumption may choose one duty-free option: 0.25 litre spirits plus 1 litre wine; 0.25 litre spirits plus 1 litre beer; 0.25 litre spirits only; 1 litre wine only; or 1 litre beer only."
+        }
+      ]
+    },
+    "cashDeclaration": {},
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "sg-customs-crew-concessions"
+        ],
+        "text": "Crew must pay duty and GST on liquor exceeding the applicable crew concession and on goods carried for or on behalf of another person, and must make an accurate and complete declaration at the Red Channel."
+      }
+    ],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "sg-customs-crew-concessions"
+          ],
+          "text": "There is no duty-free concession or GST import relief for cigarettes or tobacco products. All such products are subject to duty and GST, and products that do not meet Singapore's standardised-packaging requirements are not allowed to be imported."
+        }
+      ]
+    }
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iataCode": "SIN",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "needs_review",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "Singapore Customs",
+      "id": "sg-customs-crew-concessions",
+      "jurisdiction": "SG",
+      "pageTitle": "Duty-Free Concession and GST Import Relief",
+      "sourceType": "customs",
+      "supportsFields": [
+        "crewNotes",
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.customs.gov.sg/at-customs/arriving-in-singapore/duty-free-concession-gst-relief/"
+    },
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "Changi Airport Group",
+      "id": "sin-changi-power-banks-2026",
+      "jurisdiction": "SG",
+      "pageTitle": "Security and Baggage Restrictions at Changi Airport",
+      "sourceType": "airport_authority",
+      "supportsFields": [
+        "crewNotes",
+        "baggageSecurityOverrides.handBaggage.batteriesAndElectronics",
+        "baggageSecurityOverrides.checkedCargoBag.batteriesAndElectronics"
+      ],
+      "url": "https://www.changiairport.com/en/fly/security-and-baggage-restrictions.html"
+    }
+  ]
+}

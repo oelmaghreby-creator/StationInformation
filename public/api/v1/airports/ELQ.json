@@ -1,0 +1,59 @@
+{
+  "airportName": "ELQ airport (research pending)",
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "city": "Qassim",
+  "country": {
+    "iso2": "SA",
+    "name": "Saudi Arabia"
+  },
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "sa-zatca-traveller-luggage"
+      ],
+      "text": "No verified crew-specific allowance was identified in the listed official sources; contact the station or authority before carrying restricted goods."
+    }
+  ],
+  "customs": {
+    "alcohol": {},
+    "cashDeclaration": {},
+    "declarationRequirements": [],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {}
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iataCode": "ELQ",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "research_pending",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "Zakat, Tax and Customs Authority",
+      "id": "sa-zatca-traveller-luggage",
+      "jurisdiction": "SA",
+      "pageTitle": "Luggage",
+      "sourceType": "customs",
+      "supportsFields": [
+        "crewNotes"
+      ],
+      "url": "https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/customs-individual/Travel-pages/luggage.aspx"
+    }
+  ]
+}

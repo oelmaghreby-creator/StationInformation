@@ -1,0 +1,10 @@
+id: sa-zatca-traveller-luggage
+authorityName: Zakat, Tax and Customs Authority
+pageTitle: Luggage
+url: https://zatca.gov.sa/en/RulesRegulations/Taxes/Pages/customs-individual/Travel-pages/luggage.aspx
+jurisdiction: SA
+accessedAt: '2026-08-25'
+fingerprint: sha256:67773cd7d9a1be8a33f46febcff7f92e15dbf391463c0e980529b72f89088081
+supportsFields:
+  - crewNotes
+sourceType: customs

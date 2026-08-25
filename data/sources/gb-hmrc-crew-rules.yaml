@@ -1,0 +1,14 @@
+id: gb-hmrc-crew-rules
+authorityName: HM Revenue & Customs
+pageTitle: Travellers Communication Pack (plain text)
+url: https://www.gov.uk/government/publications/hmrc-brexit-transition-communications-resources/travellers-communication-pack-plain-text
+jurisdiction: GB
+accessedAt: '2026-08-25'
+fingerprint: sha256:8d544d9374e75441f495c7cec3b13126683834acfc61797ca90483afac0089cf
+supportsFields:
+  - crewNotes
+  - customs.cashDeclaration.rules
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.declarationRequirements
+sourceType: customs

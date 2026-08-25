@@ -1,0 +1,66 @@
+iso2: GB
+countryName: United Kingdom
+customs:
+  foodAndAgriculture: []
+  medicines: []
+  cashDeclaration:
+    rules:
+      - text: >-
+          Operating crew must declare cash of £10,000 or more when entering or
+          leaving Great Britain to or from any country.
+        sourceIds:
+          - gb-border-force-travelling
+          - gb-hmrc-crew-rules
+  alcohol:
+    rules:
+      - text: >-
+          For operating aircrew aged 17 or over arriving in Great Britain, the
+          personal allowance is 42 litres of beer and 18 litres of still wine,
+          plus either 4 litres of spirits or other liquor over 22% ABV, or 9
+          litres of alcoholic drinks below 22% ABV; the last two categories may
+          be combined proportionally.
+        sourceIds:
+          - gb-border-force-travelling
+          - gb-hmrc-crew-rules
+  tobacco:
+    rules:
+      - text: >-
+          For operating aircrew aged 17 or over arriving in Great Britain, the
+          personal allowance is 200 cigarettes, 100 cigarillos, 50 cigars, 250g
+          of tobacco, or 200 sticks of tobacco for heating; categories may be
+          combined proportionally without exceeding the total allowance.
+        sourceIds:
+          - gb-border-force-travelling
+          - gb-hmrc-crew-rules
+  prohibitedItems: []
+  restrictedItems: []
+  declarationRequirements:
+    - text: >-
+        Operating aircrew on international services are subject to the same
+        personal allowance and declaration rules as passengers. Crew with goods
+        to declare that were not declared online must use the first red point or
+        red channel before leaving, or a location agreed with Border Force in
+        advance.
+      sourceIds:
+        - gb-hmrc-crew-rules
+baggageSecurity:
+  handBaggage:
+    sharpObjects: []
+    liquids: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+  checkedCargoBag:
+    knivesAndSharpObjects: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+crewNotes:
+  - text: >-
+      The cited numeric allowances apply to arrivals in Great Britain (England,
+      Scotland and Wales). They must not be reused for Northern Ireland without
+      checking the route-specific Northern Ireland rules.
+    sourceIds:
+      - gb-border-force-travelling
+      - gb-hmrc-crew-rules
+reviewStatus: needs_review
+lastVerified: '2026-08-25'
+nextReviewDue: '2026-11-25'

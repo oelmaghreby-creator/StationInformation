@@ -1,0 +1,53 @@
+iso2: SG
+countryName: Singapore
+customs:
+  foodAndAgriculture: []
+  medicines: []
+  cashDeclaration: {}
+  alcohol:
+    rules:
+      - text: >-
+          A bona fide crew member aged 18 or over who spent at least 48 hours
+          outside Singapore, is not arriving from Malaysia, and carries liquor
+          for personal consumption may choose one duty-free option: 0.25 litre
+          spirits plus 1 litre wine; 0.25 litre spirits plus 1 litre beer; 0.25
+          litre spirits only; 1 litre wine only; or 1 litre beer only.
+        sourceIds:
+          - sg-customs-crew-concessions
+  tobacco:
+    rules:
+      - text: >-
+          There is no duty-free concession or GST import relief for cigarettes
+          or tobacco products. All such products are subject to duty and GST,
+          and products that do not meet Singapore's standardised-packaging
+          requirements are not allowed to be imported.
+        sourceIds:
+          - sg-customs-crew-concessions
+  prohibitedItems: []
+  restrictedItems: []
+  declarationRequirements:
+    - text: >-
+        Crew must pay duty and GST on liquor exceeding the applicable crew
+        concession and on goods carried for or on behalf of another person, and
+        must make an accurate and complete declaration at the Red Channel.
+      sourceIds:
+        - sg-customs-crew-concessions
+baggageSecurity:
+  handBaggage:
+    sharpObjects: []
+    liquids: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+  checkedCargoBag:
+    knivesAndSharpObjects: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+crewNotes:
+  - text: >-
+      Crew members are not eligible for GST import relief on newly acquired
+      goods brought into Singapore.
+    sourceIds:
+      - sg-customs-crew-concessions
+reviewStatus: needs_review
+lastVerified: '2026-08-25'
+nextReviewDue: '2026-11-25'

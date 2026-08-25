@@ -1,0 +1,54 @@
+{
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "countryName": "Thailand",
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "th-customs-arriving-passengers"
+      ],
+      "text": "No verified crew-specific allowance was identified in the listed official sources; contact the station or authority before carrying restricted goods."
+    }
+  ],
+  "customs": {
+    "alcohol": {},
+    "cashDeclaration": {},
+    "declarationRequirements": [],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {}
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iso2": "TH",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "research_pending",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "Thai Customs Department",
+      "id": "th-customs-arriving-passengers",
+      "jurisdiction": "TH",
+      "pageTitle": "Customs Procedure for Arriving Passengers",
+      "sourceType": "customs",
+      "supportsFields": [
+        "crewNotes"
+      ],
+      "url": "https://www.customs.go.th/list_strc_simple_neted.php?ini_content=individual_160503_03_160905_01&lang=en&left_menu=menu_individual_submenu_01_160421_01"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "airportName": "SYD airport (research pending)",
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "city": "Sydney",
+  "country": {
+    "iso2": "AU",
+    "name": "Australia"
+  },
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "au-abf-duty-free-crew"
+      ],
+      "text": "The crew-member duty-free limit for general goods is AUD450. General goods include gifts, souvenirs, cameras, electronics, leather goods, perfume concentrates, jewellery, watches and sporting equipment; the concession does not apply to commercial goods."
+    }
+  ],
+  "customs": {
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "au-abf-duty-free-crew"
+          ],
+          "text": "A crew member aged 18 or over may bring 2.25 litres of alcoholic beverages into Australia duty free in accompanied baggage, regardless of where or how the beverages were purchased."
+        }
+      ]
+    },
+    "cashDeclaration": {},
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "au-abf-duty-free-crew"
+        ],
+        "text": "If a crew member exceeds a duty-free limit, duty and tax apply to all items of that type, not only the excess; the goods must be declared and proof of purchase provided."
+      }
+    ],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {}
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iataCode": "SYD",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "needs_review",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "Australian Border Force",
+      "id": "au-abf-duty-free-crew",
+      "jurisdiction": "AU",
+      "pageTitle": "Duty free",
+      "sourceType": "customs",
+      "supportsFields": [
+        "crewNotes",
+        "customs.alcohol.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.abf.gov.au/entering-and-leaving-australia/duty-free"
+    }
+  ]
+}

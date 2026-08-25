@@ -1,0 +1,79 @@
+{
+  "airportName": "MAA airport (research pending)",
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "city": "Chennai",
+  "country": {
+    "iso2": "IN",
+    "name": "India"
+  },
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "in-mumbai-customs-crew-2026",
+        "in-pib-baggage-2026"
+      ],
+      "text": "Under the Baggage Rules, 2026, a crew member of a vessel or aircraft who is not at final pay-off may bring chocolates, cheese, cosmetics and other gift articles for personal or family use up to a total value of ₹2,500."
+    },
+    {
+      "sourceIds": [
+        "in-mumbai-customs-crew-2026",
+        "in-pib-baggage-2026"
+      ],
+      "text": "The Baggage Rules, 2026 apply to crew members engaged in a foreign-going conveyance when importing their baggage at final pay-off on termination of their engagement."
+    }
+  ],
+  "customs": {
+    "alcohol": {},
+    "cashDeclaration": {},
+    "declarationRequirements": [],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {}
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iataCode": "MAA",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "needs_review",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "Mumbai Customs Zone III, Airport Commissionerate",
+      "id": "in-mumbai-customs-crew-2026",
+      "jurisdiction": "IN",
+      "pageTitle": "Arrival Passenger Guidelines",
+      "sourceType": "customs",
+      "supportsFields": [
+        "crewNotes"
+      ],
+      "url": "https://mumbaicustomszone3.gov.in/aarrival-passenger-guidelines"
+    },
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "Press Information Bureau, Ministry of Finance",
+      "id": "in-pib-baggage-2026",
+      "jurisdiction": "IN",
+      "pageTitle": "Government notifies Baggage Rules, 2026",
+      "sourceType": "government",
+      "supportsFields": [
+        "crewNotes"
+      ],
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2222384"
+    }
+  ]
+}

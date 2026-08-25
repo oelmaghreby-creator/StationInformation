@@ -1,0 +1,39 @@
+iso2: IN
+countryName: India
+customs:
+  foodAndAgriculture: []
+  medicines: []
+  cashDeclaration: {}
+  alcohol: {}
+  tobacco: {}
+  prohibitedItems: []
+  restrictedItems: []
+  declarationRequirements: []
+baggageSecurity:
+  handBaggage:
+    sharpObjects: []
+    liquids: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+  checkedCargoBag:
+    knivesAndSharpObjects: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+crewNotes:
+  - text: >-
+      Under the Baggage Rules, 2026, a crew member of a vessel or aircraft who
+      is not at final pay-off may bring chocolates, cheese, cosmetics and other
+      gift articles for personal or family use up to a total value of ₹2,500.
+    sourceIds:
+      - in-mumbai-customs-crew-2026
+      - in-pib-baggage-2026
+  - text: >-
+      The Baggage Rules, 2026 apply to crew members engaged in a foreign-going
+      conveyance when importing their baggage at final pay-off on termination
+      of their engagement.
+    sourceIds:
+      - in-mumbai-customs-crew-2026
+      - in-pib-baggage-2026
+reviewStatus: needs_review
+lastVerified: '2026-08-25'
+nextReviewDue: '2026-11-25'

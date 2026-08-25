@@ -1,0 +1,58 @@
+name: CI and Pages
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+env:
+  # This value is committed with public/api/v1/status.json. Change it only
+  # when regenerating and committing a deliberate API release.
+  SOURCE_DATE_EPOCH: "2026-08-25T00:00:00Z"
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+      - name: Install project and test dependencies
+        run: python -m pip install '.[test]'
+      - name: Test, validate, and build generated API
+        run: |
+          python -m pytest -v
+          crew-customs validate --root .
+          crew-customs build --root . --output public/api/v1 --built-at "$SOURCE_DATE_EPOCH"
+          crew-customs release-check --root .
+          git diff --exit-code public
+          test -z "$(git status --porcelain --untracked-files=all -- public)"
+      - name: Configure Pages
+        if: github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@d6db3bb1c20c3a439cf4f8ec5d38c130bab91820 # v4.0.5

@@ -1,0 +1,59 @@
+{
+  "airportName": "YYZ airport (research pending)",
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "city": "Toronto",
+  "country": {
+    "iso2": "CA",
+    "name": "Canada"
+  },
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "ca-cbsa-authority-contact"
+      ],
+      "text": "No verified crew-specific allowance was identified in the listed official sources; contact the station or authority before carrying restricted goods."
+    }
+  ],
+  "customs": {
+    "alcohol": {},
+    "cashDeclaration": {},
+    "declarationRequirements": [],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {}
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iataCode": "YYZ",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "research_pending",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "Canada Border Services Agency",
+      "id": "ca-cbsa-authority-contact",
+      "jurisdiction": "CA",
+      "pageTitle": "Contact border information services",
+      "sourceType": "customs",
+      "supportsFields": [
+        "crewNotes"
+      ],
+      "url": "https://www.cbsa-asfc.gc.ca/contact/bis-sif-eng.html"
+    }
+  ]
+}

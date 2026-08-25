@@ -1,0 +1,24 @@
+{
+  "publishRoot": "public",
+  "publicationMode": "snapshot-only",
+  "snapshotPrefix": "StationInformation",
+  "forbiddenDirectories": ["inputs"],
+  "historyForbiddenOperationalTerms": [
+    "key_flight",
+    "related_hotel",
+    "flag_url",
+    "sharepoint.com",
+    "final_flight_numbers_dil"
+  ],
+  "forbiddenOperationalTerms": [
+    "key_flight",
+    "flag_url",
+    "flight",
+    "hotel",
+    "sharepoint",
+    "staff",
+    "roster",
+    "internal",
+    "intranet"
+  ]
+}

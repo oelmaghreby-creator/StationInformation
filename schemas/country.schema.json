@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Country rules record",
+  "type": "object",
+  "required": [
+    "iso2",
+    "countryName",
+    "customs",
+    "baggageSecurity",
+    "reviewStatus",
+    "lastVerified"
+  ],
+  "$defs": {
+    "rule": {
+      "type": "object",
+      "required": ["text", "sourceIds"],
+      "properties": {
+        "text": {"type": "string", "minLength": 1},
+        "sourceIds": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        }
+      }
+    },
+    "verifiedRule": {
+      "allOf": [
+        {"$ref": "#/$defs/rule"},
+        {
+          "properties": {
+            "sourceIds": {"minItems": 1}
+          }
+        }
+      ]
+    },
+    "ruleList": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/rule"}
+    },
+    "verifiedRuleList": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/verifiedRule"}
+    },
+    "policyRuleObject": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rules": {"$ref": "#/$defs/ruleList"}
+      }
+    },
+    "verifiedPolicyRuleObject": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rules": {"$ref": "#/$defs/verifiedRuleList"}
+      }
+    }
+  },
+  "properties": {
+    "iso2": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "minLength": 2,
+      "maxLength": 2
+    },
+    "countryName": {"type": "string", "minLength": 1},
+    "reviewStatus": {
+      "type": "string",
+      "enum": ["verified", "needs_review", "research_pending"]
+    },
+    "lastVerified": {"type": ["string", "null"]},
+    "nextReviewDue": {"type": ["string", "null"]},
+    "crewNotes": {"$ref": "#/$defs/ruleList"},
+    "customs": {
+      "type": "object",
+      "required": [
+        "foodAndAgriculture",
+        "medicines",
+        "cashDeclaration",
+        "alcohol",
+        "tobacco",
+        "prohibitedItems",
+        "restrictedItems",
+        "declarationRequirements"
+      ],
+      "properties": {
+        "foodAndAgriculture": {"$ref": "#/$defs/ruleList"},
+        "medicines": {"$ref": "#/$defs/ruleList"},
+        "cashDeclaration": {"$ref": "#/$defs/policyRuleObject"},
+        "alcohol": {"$ref": "#/$defs/policyRuleObject"},
+        "tobacco": {"$ref": "#/$defs/policyRuleObject"},
+        "prohibitedItems": {"$ref": "#/$defs/ruleList"},
+        "restrictedItems": {"$ref": "#/$defs/ruleList"},
+        "declarationRequirements": {"$ref": "#/$defs/ruleList"}
+      }
+    },
+    "baggageSecurity": {
+      "type": "object",
+      "required": ["handBaggage", "checkedCargoBag"],
+      "properties": {
+        "handBaggage": {
+          "type": "object",
+          "required": [
+            "sharpObjects",
+            "liquids",
+            "batteriesAndElectronics",
+            "prohibitedItems"
+          ],
+          "properties": {
+            "sharpObjects": {"$ref": "#/$defs/ruleList"},
+            "liquids": {"$ref": "#/$defs/ruleList"},
+            "batteriesAndElectronics": {"$ref": "#/$defs/ruleList"},
+            "prohibitedItems": {"$ref": "#/$defs/ruleList"}
+          }
+        },
+        "checkedCargoBag": {
+          "type": "object",
+          "required": [
+            "knivesAndSharpObjects",
+            "batteriesAndElectronics",
+            "prohibitedItems"
+          ],
+          "properties": {
+            "knivesAndSharpObjects": {"$ref": "#/$defs/ruleList"},
+            "batteriesAndElectronics": {"$ref": "#/$defs/ruleList"},
+            "prohibitedItems": {"$ref": "#/$defs/ruleList"}
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"reviewStatus": {"const": "verified"}},
+        "required": ["reviewStatus"]
+      },
+      "then": {
+        "required": ["lastVerified", "nextReviewDue"],
+        "properties": {
+          "lastVerified": {"type": "string", "format": "date"},
+          "nextReviewDue": {"type": "string", "format": "date"},
+          "crewNotes": {"$ref": "#/$defs/verifiedRuleList"},
+          "customs": {
+            "properties": {
+              "foodAndAgriculture": {"$ref": "#/$defs/verifiedRuleList"},
+              "medicines": {"$ref": "#/$defs/verifiedRuleList"},
+              "cashDeclaration": {"$ref": "#/$defs/verifiedPolicyRuleObject"},
+              "alcohol": {"$ref": "#/$defs/verifiedPolicyRuleObject"},
+              "tobacco": {"$ref": "#/$defs/verifiedPolicyRuleObject"},
+              "prohibitedItems": {"$ref": "#/$defs/verifiedRuleList"},
+              "restrictedItems": {"$ref": "#/$defs/verifiedRuleList"},
+              "declarationRequirements": {"$ref": "#/$defs/verifiedRuleList"}
+            }
+          },
+          "baggageSecurity": {
+            "properties": {
+              "handBaggage": {
+                "properties": {
+                  "sharpObjects": {"$ref": "#/$defs/verifiedRuleList"},
+                  "liquids": {"$ref": "#/$defs/verifiedRuleList"},
+                  "batteriesAndElectronics": {"$ref": "#/$defs/verifiedRuleList"},
+                  "prohibitedItems": {"$ref": "#/$defs/verifiedRuleList"}
+                }
+              },
+              "checkedCargoBag": {
+                "properties": {
+                  "knivesAndSharpObjects": {"$ref": "#/$defs/verifiedRuleList"},
+                  "batteriesAndElectronics": {"$ref": "#/$defs/verifiedRuleList"},
+                  "prohibitedItems": {"$ref": "#/$defs/verifiedRuleList"}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {"reviewStatus": {"const": "research_pending"}},
+        "required": ["reviewStatus"]
+      },
+      "then": {
+        "properties": {
+          "lastVerified": {"type": "null"},
+          "nextReviewDue": {"type": "null"}
+        }
+      }
+    }
+  ]
+}

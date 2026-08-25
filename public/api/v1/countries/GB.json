@@ -1,0 +1,111 @@
+{
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "countryName": "United Kingdom",
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "gb-border-force-travelling",
+        "gb-hmrc-crew-rules"
+      ],
+      "text": "The cited numeric allowances apply to arrivals in Great Britain (England, Scotland and Wales). They must not be reused for Northern Ireland without checking the route-specific Northern Ireland rules."
+    }
+  ],
+  "customs": {
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "gb-border-force-travelling",
+            "gb-hmrc-crew-rules"
+          ],
+          "text": "For operating aircrew aged 17 or over arriving in Great Britain, the personal allowance is 42 litres of beer and 18 litres of still wine, plus either 4 litres of spirits or other liquor over 22% ABV, or 9 litres of alcoholic drinks below 22% ABV; the last two categories may be combined proportionally."
+        }
+      ]
+    },
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "gb-border-force-travelling",
+            "gb-hmrc-crew-rules"
+          ],
+          "text": "Operating crew must declare cash of £10,000 or more when entering or leaving Great Britain to or from any country."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "gb-hmrc-crew-rules"
+        ],
+        "text": "Operating aircrew on international services are subject to the same personal allowance and declaration rules as passengers. Crew with goods to declare that were not declared online must use the first red point or red channel before leaving, or a location agreed with Border Force in advance."
+      }
+    ],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "gb-border-force-travelling",
+            "gb-hmrc-crew-rules"
+          ],
+          "text": "For operating aircrew aged 17 or over arriving in Great Britain, the personal allowance is 200 cigarettes, 100 cigarillos, 50 cigars, 250g of tobacco, or 200 sticks of tobacco for heating; categories may be combined proportionally without exceeding the total allowance."
+        }
+      ]
+    }
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iso2": "GB",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "needs_review",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "HM Revenue & Customs and Border Force",
+      "id": "gb-border-force-travelling",
+      "jurisdiction": "GB",
+      "pageTitle": "UK customs information: England, Scotland and Wales",
+      "sourceType": "customs",
+      "supportsFields": [
+        "crewNotes",
+        "customs.cashDeclaration.rules",
+        "customs.alcohol.rules",
+        "customs.tobacco.rules"
+      ],
+      "url": "https://www.gov.uk/government/publications/travelling-to-the-uk/travelling-to-the-uk"
+    },
+    {
+      "accessedAt": "2026-08-25",
+      "authorityName": "HM Revenue & Customs",
+      "id": "gb-hmrc-crew-rules",
+      "jurisdiction": "GB",
+      "pageTitle": "Travellers Communication Pack (plain text)",
+      "sourceType": "customs",
+      "supportsFields": [
+        "crewNotes",
+        "customs.cashDeclaration.rules",
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.gov.uk/government/publications/hmrc-brexit-transition-communications-resources/travellers-communication-pack-plain-text"
+    }
+  ]
+}

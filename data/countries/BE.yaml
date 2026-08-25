@@ -1,0 +1,25 @@
+iso2: BE
+countryName: Belgium
+customs:
+  foodAndAgriculture: []
+  medicines: []
+  cashDeclaration: {}
+  alcohol: {}
+  tobacco: {}
+  prohibitedItems: []
+  restrictedItems: []
+  declarationRequirements: []
+baggageSecurity:
+  handBaggage:
+    sharpObjects: []
+    liquids: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+  checkedCargoBag:
+    knivesAndSharpObjects: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+crewNotes: []
+reviewStatus: research_pending
+lastVerified: null
+nextReviewDue: null

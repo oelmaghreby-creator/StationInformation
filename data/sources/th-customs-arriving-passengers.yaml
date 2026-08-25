@@ -1,0 +1,10 @@
+id: th-customs-arriving-passengers
+authorityName: Thai Customs Department
+pageTitle: Customs Procedure for Arriving Passengers
+url: https://www.customs.go.th/list_strc_simple_neted.php?ini_content=individual_160503_03_160905_01&lang=en&left_menu=menu_individual_submenu_01_160421_01
+jurisdiction: TH
+accessedAt: '2026-08-25'
+fingerprint: sha256:35e577032a3e77a8bf2aa2da55b058d98db502c252a5b819c4429b3de3ae3f41
+supportsFields:
+  - crewNotes
+sourceType: customs

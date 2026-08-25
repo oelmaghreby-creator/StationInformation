@@ -1,0 +1,8 @@
+.worktrees/
+.superpowers/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/
+.crew-customs-monitor/
+inputs/

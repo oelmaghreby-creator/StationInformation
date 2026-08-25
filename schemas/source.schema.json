@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Official source record",
+  "type": "object",
+  "required": [
+    "id",
+    "authorityName",
+    "pageTitle",
+    "url",
+    "jurisdiction",
+    "accessedAt",
+    "fingerprint",
+    "supportsFields",
+    "sourceType"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "not": {"pattern": "[\\r\\n]"},
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "authorityName": {"type": "string", "minLength": 1},
+    "pageTitle": {"type": "string", "minLength": 1},
+    "url": {"type": "string", "format": "uri"},
+    "jurisdiction": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "minLength": 2,
+      "maxLength": 2
+    },
+    "accessedAt": {"type": "string"},
+    "fingerprint": {"type": "string", "minLength": 1},
+    "supportsFields": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "sourceType": {"type": "string", "minLength": 1}
+  }
+}

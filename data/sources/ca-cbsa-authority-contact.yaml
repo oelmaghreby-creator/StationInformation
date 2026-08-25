@@ -1,0 +1,10 @@
+id: ca-cbsa-authority-contact
+authorityName: Canada Border Services Agency
+pageTitle: Contact border information services
+url: https://www.cbsa-asfc.gc.ca/contact/bis-sif-eng.html
+jurisdiction: CA
+accessedAt: '2026-08-25'
+fingerprint: sha256:a6647c46125c4e111eac1d3802b82e2bf4c281ea4255ede0057650525ce0c882
+supportsFields:
+  - crewNotes
+sourceType: customs
