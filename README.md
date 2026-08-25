@@ -92,11 +92,11 @@ archive into a new staging directory, review it, initialize a new **parentless**
 `main` commit, and push only that new commit to the empty public repository.
 Do not add the original repository as a remote or use a normal history push.
 
-With a declared `builtAt` value, the build is deterministic. CI rebuilds
-`public/` and fails when generated API files have not been committed. Source
-monitoring runs weekly and creates or comments on exact-key `source-change`
-review issues. It never changes source YAML, verified rules, or published API
-files automatically.
+With a declared `builtAt` value, the build is deterministic. CI validates every
+source change, rebuilds `public/`, commits changed generated API files on
+`main`, and then deploys GitHub Pages. Pull requests remain read-only. Source
+monitoring runs daily and creates or comments on exact-key `source-change`
+review issues. It never changes source YAML or verified rules automatically.
 
 For a reproducible release build, use the committed UTC ISO 8601 timestamp
 from the CI workflow with either `--built-at` or `SOURCE_DATE_EPOCH`:
