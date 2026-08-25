@@ -441,6 +441,17 @@
       "reviewStatus": "research_pending"
     },
     {
+      "airportName": "Alexandria airport (research pending)",
+      "city": "Alexandria",
+      "country": {
+        "iso2": "EG",
+        "name": "Egypt"
+      },
+      "endpoint": "/api/v1/airports/HBE.json",
+      "iataCode": "HBE",
+      "reviewStatus": "research_pending"
+    },
+    {
       "airportName": "HKG airport (research pending)",
       "city": "Hong Kong",
       "country": {
