@@ -2,14 +2,14 @@ name: Monitor official sources
 
 on:
   schedule:
-    - cron: '17 3 * * 1'
+    - cron: '17 3 * * *'
   workflow_dispatch: {}
 
 permissions:
   contents: read
   issues: write
 
-# Serialize runs so a manual dispatch cannot race the weekly run and create a
+# Serialize runs so a manual dispatch cannot race the scheduled run and create a
 # second issue between the exact-key search and issue creation.
 concurrency:
   group: crew-customs-source-monitor

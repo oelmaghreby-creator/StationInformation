@@ -91,7 +91,7 @@ def test_monitor_workflow_uses_exact_keys_and_cannot_modify_rule_data():
     text, workflow = load_workflow("monitor-sources.yml")
     trigger = workflow["on"]
     assert isinstance(trigger, dict)
-    assert trigger["schedule"] == [{"cron": "17 3 * * 1"}]
+    assert trigger["schedule"] == [{"cron": "17 3 * * *"}]
     assert trigger["workflow_dispatch"] == {}
     assert workflow["permissions"] == {"contents": "read", "issues": "write"}
     assert workflow["concurrency"] == {
