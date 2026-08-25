@@ -11,7 +11,7 @@ permissions:
 env:
   # This value is committed with public/api/v1/status.json. Change it only
   # when regenerating and committing a deliberate API release.
-  SOURCE_DATE_EPOCH: "2026-08-25T00:00:00Z"
+  API_BUILT_AT: "2026-08-25T00:00:00Z"
 
 jobs:
   build:
@@ -29,8 +29,8 @@ jobs:
         run: |
           python -m pytest -v
           crew-customs validate --root .
-          crew-customs build --root . --output public/api/v1 --built-at "$SOURCE_DATE_EPOCH"
-          crew-customs release-check --root .
+          crew-customs build --root . --output public/api/v1 --built-at "$API_BUILT_AT"
+          crew-customs release-check --root . --snapshot-only
           git diff --exit-code public
           test -z "$(git status --porcelain --untracked-files=all -- public)"
       - name: Configure Pages

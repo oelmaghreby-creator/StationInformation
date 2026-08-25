@@ -297,6 +297,12 @@ def test_history_privacy_gate_requires_snapshot_only_publication(
     assert "snapshot-only publication required" in capsys.readouterr().err
 
 
+def test_release_check_snapshot_only_ignores_unpublished_history(tmp_path: Path):
+    root = _private_history_repo(tmp_path)
+
+    assert runner(["release-check", "--root", str(root), "--snapshot-only"]) == 0
+
+
 def test_release_snapshot_uses_tracked_head_and_excludes_ignored_superpowers(
     tmp_path: Path,
 ):

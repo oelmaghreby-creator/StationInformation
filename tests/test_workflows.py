@@ -47,9 +47,10 @@ def test_ci_pages_workflow_tests_generated_output_and_deploys_with_scoped_permis
     )
     assert "python -m pytest" in build_script
     assert "crew-customs validate --root ." in build_script
-    assert "SOURCE_DATE_EPOCH" in build_script
+    assert "--built-at \"$API_BUILT_AT\"" in build_script
+    assert "SOURCE_DATE_EPOCH" not in workflow.get("env", {})
     assert "crew-customs build --root . --output public/api/v1" in build_script
-    assert "crew-customs release-check --root ." in build_script
+    assert "crew-customs release-check --root . --snapshot-only" in build_script
     assert "git diff --exit-code public" in build_script
     assert "git status --porcelain --untracked-files=all -- public" in build_script
     upload_steps = [

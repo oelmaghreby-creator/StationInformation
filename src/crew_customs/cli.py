@@ -36,7 +36,7 @@ def main(arguments: Sequence[str] | None = None) -> int:
     if namespace.command == "monitor":
         return _monitor(namespace.root)
     if namespace.command == "release-check":
-        return _release_check(namespace.root)
+        return _release_check(namespace.root, namespace.snapshot_only)
     if namespace.command == "release-snapshot":
         return _release_snapshot(namespace)
     parser.error("a command is required")
@@ -71,6 +71,11 @@ def _parser() -> argparse.ArgumentParser:
         help="reject private inputs or operational content from the Pages snapshot",
     )
     release_check.add_argument("--root", type=Path, default=Path("."))
+    release_check.add_argument(
+        "--snapshot-only",
+        action="store_true",
+        help="validate the publishable tree without inspecting local Git history",
+    )
 
     release_snapshot = commands.add_parser(
         "release-snapshot",
@@ -244,10 +249,10 @@ def _monitor(root: Path) -> int:
     return 0
 
 
-def _release_check(root: Path) -> int:
+def _release_check(root: Path, snapshot_only: bool = False) -> int:
     try:
         errors = validate_publish_snapshot(root)
-        if not errors:
+        if not errors and not snapshot_only:
             errors.extend(validate_history_privacy(root))
     except (OSError, ValueError, json.JSONDecodeError) as error:
         print(error, file=sys.stderr)
