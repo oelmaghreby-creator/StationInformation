@@ -28,7 +28,16 @@
   ],
   "customs": {
     "alcohol": {},
-    "cashDeclaration": {},
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "pk-fbr-currency-declaration"
+          ],
+          "text": "Incoming passengers carrying foreign currency exceeding USD 10,000 (or equivalent) must declare it to Pakistan Customs (Pass Track declaration). Pakistani rupees may be taken out only up to PKR 10,000."
+        }
+      ]
+    },
     "declarationRequirements": [],
     "foodAndAgriculture": [],
     "medicines": [],
@@ -72,6 +81,18 @@
         "crewNotes"
       ],
       "url": "https://download1.fbr.gov.pk/docs/201011815113751218brochure-014.pdf"
+    },
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Federal Board of Revenue - Pakistan Customs",
+      "id": "pk-fbr-currency-declaration",
+      "jurisdiction": "PK",
+      "pageTitle": "Currency Declaration for International Travellers",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.cashDeclaration.rules"
+      ],
+      "url": "https://www.fbr.gov.pk/categ/travel-guide/51149/80881/131184"
     }
   ]
 }
