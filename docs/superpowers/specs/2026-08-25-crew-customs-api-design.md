@@ -11,7 +11,7 @@ The API is informational. It does not replace airline manuals, dangerous-goods p
 - Audience: operating crew only.
 - Expected scale: 5,000–20,000 users.
 - Language: English for the first release.
-- Initial network: the airport codes supplied in `Final_Flight_Numbers_DIL.csv`.
+- Initial network: the airport codes supplied in `network-input.csv`.
 - Network growth: new IATA codes can be added later without changing the API contract.
 - Hosting: public static JSON API on GitHub Pages.
 - Updates: curated rules with weekly official-source monitoring and human review.

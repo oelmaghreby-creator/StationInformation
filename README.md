@@ -62,7 +62,7 @@ checkout (the repository ignores `inputs/`) and pass its secure local path
 explicitly when initializing identities:
 
 ```bash
-crew-customs init-network --csv /secure/path/Final_Flight_Numbers_DIL.csv --root .
+crew-customs init-network --csv /secure/path/network-input.csv --root .
 ```
 
 `init-network` retains only airport/city/country identity fields and writes

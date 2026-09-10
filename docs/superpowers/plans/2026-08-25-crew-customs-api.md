@@ -14,7 +14,7 @@
 
 - Audience is operating crew only; language is English.
 - Public output contains no roster, staff, flight, hotel, SharePoint, or other operational data.
-- Initial source is `Final_Flight_Numbers_DIL.csv`; exclude AUH from the destination set for v1.
+- Initial source is `network-input.csv`; exclude AUH from the destination set for v1.
 - Separate hand baggage from checked crew baggage (`checkedCargoBag`).
 - Never substitute passenger allowances when no verified crew-specific allowance exists.
 - Every verified substantive rule must reference an approved official source.
@@ -27,7 +27,7 @@
 ```text
 pyproject.toml                         Dependency and test configuration
 README.md                              API use, local commands, disclaimer
-inputs/Final_Flight_Numbers_DIL.csv    Supplied network input (not deployed)
+inputs/network-input.csv    Supplied network input (not deployed)
 schemas/country.schema.json            Country source-record contract
 schemas/airport.schema.json            Airport source-record contract
 schemas/source.schema.json             Official-source contract
@@ -142,7 +142,7 @@ git commit -m "build: initialize crew customs project"
 ### Task 2: Normalize and privacy-filter the supplied network
 
 **Files:**
-- Copy: `inputs/Final_Flight_Numbers_DIL.csv`
+- Copy: `inputs/network-input.csv`
 - Create: `src/crew_customs/network.py`
 - Create: `tests/test_network.py`
 - Create: `tests/fixtures/network.csv`
@@ -212,7 +212,7 @@ Expected: PASS.
 
 ```bash
 mkdir -p inputs
-cp ../upload/Final_Flight_Numbers_DIL.csv inputs/Final_Flight_Numbers_DIL.csv
+cp ../upload/network-input.csv inputs/network-input.csv
 git add inputs src/crew_customs/network.py tests
 git commit -m "feat: normalize destination network safely"
 ```
@@ -377,7 +377,7 @@ Use `argparse` subcommands. `init-network` calls `normalize_network`, applies a 
 
 - [ ] **Step 4: Initialize all 96 destination airport records**
 
-Run: `crew-customs init-network --csv inputs/Final_Flight_Numbers_DIL.csv --exclude AUH --root .`
+Run: `crew-customs init-network --csv inputs/network-input.csv --exclude AUH --root .`
 Expected: 96 unique `data/airports/{IATA}.yaml` files; no flight, hotel, or SharePoint fields.
 
 - [ ] **Step 5: Verify counts and commit**
