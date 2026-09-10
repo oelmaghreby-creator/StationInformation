@@ -1,0 +1,12 @@
+id: om-directorate-general-customs
+authorityName: Directorate General of Customs
+pageTitle: 'Customs — traveller information'
+url: https://www.customs.gov.om
+jurisdiction: OM
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.prohibitedItems
+  - crewNotes
+sourceType: customs

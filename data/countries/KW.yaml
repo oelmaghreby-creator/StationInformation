@@ -6,7 +6,12 @@ customs:
   cashDeclaration: {}
   alcohol: {}
   tobacco: {}
-  prohibitedItems: []
+  prohibitedItems:
+    - text: >-
+          Alcohol and alcoholic beverages must not be brought into Kuwait.
+          Personal import of alcohol is prohibited and penalties are severe.
+      sourceIds:
+        - kw-general-administration-customs
   restrictedItems: []
   declarationRequirements: []
 baggageSecurity:
@@ -19,7 +24,14 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      IMPORTANT: do not carry alcohol into Kuwait in hand or checked baggage - it
+      is prohibited. Compiled from established customs guidance; the authority's
+      online allowance page could not be auto-verified, so tobacco, cash and
+      goods figures are pending confirmation with Kuwait customs.
+    sourceIds:
+      - kw-general-administration-customs
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

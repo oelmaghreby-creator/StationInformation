@@ -1,0 +1,12 @@
+id: qa-general-authority-customs
+authorityName: General Authority of Customs
+pageTitle: 'Customs — traveller information'
+url: https://www.customs.gov.qa
+jurisdiction: QA
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.prohibitedItems
+  - crewNotes
+sourceType: customs
