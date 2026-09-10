@@ -18,22 +18,61 @@
     "iso2": "BD",
     "name": "Bangladesh"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "bd-nbr-baggage"
+      ],
+      "text": "Note: Bangladeshi passport holders may not import alcohol (seized); non-nationals may bring up to 1 litre. Crew should confirm any crew-specific treatment with the NBR. Compiled from the cited baggage rules, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "bd-nbr-baggage"
+          ],
+          "text": "Passengers who are not Bangladeshi nationals may bring in up to 1 litre of liquor duty-free. Bangladeshi passport holders may not carry any alcohol - it will be seized on arrival."
+        }
+      ]
+    },
     "cashDeclaration": {},
     "declarationRequirements": [],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "bd-nbr-baggage"
+          ],
+          "text": "Up to 1 carton (200 cigarettes) for personal use; any excess is seized."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "DAC",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Bangladesh Customs, National Board of Revenue (NBR)",
+      "id": "bd-nbr-baggage",
+      "jurisdiction": "BD",
+      "pageTitle": "Baggage Rules",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules"
+      ],
+      "url": "https://bangladeshcustoms.gov.bd/relevant/baggage_rules"
+    }
+  ]
 }

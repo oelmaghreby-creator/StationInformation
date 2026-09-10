@@ -13,22 +13,79 @@
     }
   },
   "countryName": "China",
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "cn-gacc-passenger"
+      ],
+      "text": "General China traveller allowances (non-resident figures); crew should confirm any crew-specific treatment with GACC. Compiled from official customs guidance, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
-    "cashDeclaration": {},
-    "declarationRequirements": [],
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "cn-gacc-passenger"
+          ],
+          "text": "Non-resident passengers may bring in 1,500 ml of alcoholic drinks (12% ABV or above) duty-free."
+        }
+      ]
+    },
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "cn-gacc-passenger"
+          ],
+          "text": "Non-resident passengers must declare foreign currency over USD 5,000 (residents over USD 1,000). Chinese yuan has a hard entry limit of CNY 20,000."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "cn-gacc-passenger"
+        ],
+        "text": "Non-resident visitors may bring in personal goods (excluding alcohol and tobacco) up to a total value of RMB 2,000 duty-free; above that, goods must be declared."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "cn-gacc-passenger"
+          ],
+          "text": "Non-resident passengers may bring in 400 cigarettes, or 100 cigars, or 500g of smoking tobacco, duty-free."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iso2": "CN",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "General Administration of Customs of China (GACC)",
+      "id": "cn-gacc-passenger",
+      "jurisdiction": "CN",
+      "pageTitle": "Customs regulations on tobacco, alcohol and personal goods",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.cashDeclaration.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://english.cq.gov.cn/services/entryandexit/FAQs/202606/t20260629_15782361.html"
+    }
+  ]
 }

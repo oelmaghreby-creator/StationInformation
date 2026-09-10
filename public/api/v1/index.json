@@ -306,7 +306,7 @@
       },
       "endpoint": "/api/v1/airports/DAC.json",
       "iataCode": "DAC",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "DAM airport (research pending)",
@@ -449,7 +449,7 @@
       },
       "endpoint": "/api/v1/airports/HAN.json",
       "iataCode": "HAN",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "Alexandria airport (research pending)",
@@ -471,7 +471,7 @@
       },
       "endpoint": "/api/v1/airports/HKG.json",
       "iataCode": "HKG",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "HKT airport (research pending)",
@@ -515,7 +515,7 @@
       },
       "endpoint": "/api/v1/airports/ICN.json",
       "iataCode": "ICN",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "ISB airport (research pending)",
@@ -636,7 +636,7 @@
       },
       "endpoint": "/api/v1/airports/KIX.json",
       "iataCode": "KIX",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "KRK airport (research pending)",
@@ -658,7 +658,7 @@
       },
       "endpoint": "/api/v1/airports/KTI.json",
       "iataCode": "KTI",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "KUL airport (research pending)",
@@ -790,7 +790,7 @@
       },
       "endpoint": "/api/v1/airports/MLE.json",
       "iataCode": "MLE",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "MNL airport (research pending)",
@@ -856,7 +856,7 @@
       },
       "endpoint": "/api/v1/airports/NRT.json",
       "iataCode": "NRT",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "ORD airport (research pending)",
@@ -889,7 +889,7 @@
       },
       "endpoint": "/api/v1/airports/PKX.json",
       "iataCode": "PKX",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "PMI airport (research pending)",
@@ -999,7 +999,7 @@
       },
       "endpoint": "/api/v1/airports/TPE.json",
       "iataCode": "TPE",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "TRV airport (research pending)",

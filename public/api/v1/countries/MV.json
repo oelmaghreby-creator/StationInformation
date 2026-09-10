@@ -13,14 +13,28 @@
     }
   },
   "countryName": "Maldives",
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "mv-customs-tourist"
+      ],
+      "text": "IMPORTANT: do not carry alcohol into the Maldives - it is prohibited and will be confiscated at the airport (available only at resorts). Pork is also restricted. Compiled from Maldives Customs guidance, pending final authority review."
+    }
+  ],
   "customs": {
     "alcohol": {},
     "cashDeclaration": {},
     "declarationRequirements": [],
     "foodAndAgriculture": [],
     "medicines": [],
-    "prohibitedItems": [],
+    "prohibitedItems": [
+      {
+        "sourceIds": [
+          "mv-customs-tourist"
+        ],
+        "text": "Importing alcohol is prohibited - alcohol bought on board or in transit duty-free shops is confiscated on arrival (it is available only on resort islands). Importing pork and pork products without prior approval is also prohibited."
+      }
+    ],
     "restrictedItems": [],
     "tobacco": {}
   },
@@ -28,7 +42,21 @@
   "iso2": "MV",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Maldives Customs Service",
+      "id": "mv-customs-tourist",
+      "jurisdiction": "MV",
+      "pageTitle": "Information for tourists / prohibited and restricted items",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.prohibitedItems",
+        "crewNotes"
+      ],
+      "url": "https://www.customs.gov.mv/d/tourist.pdf"
+    }
+  ]
 }

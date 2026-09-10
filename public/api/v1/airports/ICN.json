@@ -18,22 +18,79 @@
     "iso2": "KR",
     "name": "South Korea"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "kr-kcs-passengers"
+      ],
+      "text": "General South Korea traveller allowances; crew should confirm any crew-specific treatment with the Korea Customs Service. Compiled from the cited KCS guidance, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
-    "cashDeclaration": {},
-    "declarationRequirements": [],
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "kr-kcs-passengers"
+          ],
+          "text": "Adults (19+) may bring in alcohol up to a total of 2 litres and a value of USD 400. No exemption for travellers under 19."
+        }
+      ]
+    },
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "kr-kcs-passengers"
+          ],
+          "text": "Funds of USD 10,000 or more (or equivalent) must be declared to Customs."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "kr-kcs-passengers"
+        ],
+        "text": "The general duty-free allowance for other goods is USD 800 per person; goods above that must be declared."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "kr-kcs-passengers"
+          ],
+          "text": "Adults (19+) may bring in 200 cigarettes (or e-cigarette liquid up to 20 ml). No exemption for travellers under 19."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "ICN",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Korea Customs Service",
+      "id": "kr-kcs-passengers",
+      "jurisdiction": "KR",
+      "pageTitle": "Customs Clearance Guide for Passengers",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.cashDeclaration.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.customs.go.kr/english/cm/cntnts/cntntsView.do?mi=8069&cntntsId=2743"
+    }
+  ]
 }

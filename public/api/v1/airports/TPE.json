@@ -18,22 +18,79 @@
     "iso2": "TW",
     "name": "Taiwan"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "tw-customs-passenger"
+      ],
+      "text": "General Taiwan traveller allowances; crew should confirm any crew-specific treatment with the Customs Administration. Compiled from the cited guidance, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
-    "cashDeclaration": {},
-    "declarationRequirements": [],
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "tw-customs-passenger"
+          ],
+          "text": "Passengers aged 18 or over may bring in 1.5 litres of alcoholic beverages (no limit on the number of bottles)."
+        }
+      ]
+    },
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "tw-customs-passenger"
+          ],
+          "text": "Foreign currency exceeding the equivalent of USD 10,000 must be declared to Customs."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "tw-customs-passenger"
+        ],
+        "text": "Personal or household articles (excluding controlled goods, cigarettes and alcohol) up to a total value of NTD 35,000 are exempt; above that, goods must be declared."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "tw-customs-passenger"
+          ],
+          "text": "Passengers may bring in 200 cigarettes, or 25 cigars, or 1 pound of tobacco."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "TPE",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Customs Administration, Ministry of Finance (Taiwan)",
+      "id": "tw-customs-passenger",
+      "jurisdiction": "TW",
+      "pageTitle": "Duty-exempted goods and maximum quantities for arriving passengers",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.cashDeclaration.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://web.customs.gov.tw/etaipei/singlehtml/1367?cntId=c169690278c641edb4c70868eccbb6f6"
+    }
+  ]
 }

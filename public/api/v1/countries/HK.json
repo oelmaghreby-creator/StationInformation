@@ -13,22 +13,69 @@
     }
   },
   "countryName": "Hong Kong",
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "hk-customs-duty-free"
+      ],
+      "text": "General Hong Kong traveller concessions; note the low 19-cigarette tobacco allowance. Crew should confirm any crew-specific treatment. Compiled from the cited HK Customs & Excise guidance, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "hk-customs-duty-free"
+          ],
+          "text": "A passenger aged 18 or over may bring in 1 litre of alcoholic liquor with strength above 30% ABV, for personal use (HK ID holders must have spent 24 hours or more outside Hong Kong)."
+        }
+      ]
+    },
     "cashDeclaration": {},
-    "declarationRequirements": [],
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "hk-customs-duty-free"
+        ],
+        "text": "Hong Kong is a free port; most goods are duty-free. Only liquor, tobacco, hydrocarbon oil and methyl alcohol are dutiable and subject to the concessions above."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "hk-customs-duty-free"
+          ],
+          "text": "Tobacco allowance is 19 cigarettes, or 1 cigar, or 25g of other tobacco, per person."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iso2": "HK",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Hong Kong Customs and Excise Department",
+      "id": "hk-customs-duty-free",
+      "jurisdiction": "HK",
+      "pageTitle": "Duty-free Concessions",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.customs.gov.hk/en/service-enforcement-information/passenger-clearance/duty-free-concessions/index.html"
+    }
+  ]
 }

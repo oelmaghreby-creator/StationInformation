@@ -18,22 +18,79 @@
     "iso2": "VN",
     "name": "Vietnam"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "vn-customs-duty-free"
+      ],
+      "text": "General Vietnam traveller allowances; crew should confirm any crew-specific treatment with Vietnam Customs. Compiled from the cited guidance, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
-    "cashDeclaration": {},
-    "declarationRequirements": [],
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "vn-customs-duty-free"
+          ],
+          "text": "Duty-free: 1.5 litres of spirits at 20% ABV or above, or 2 litres under 20%, or 3 litres of beer/other alcoholic drinks."
+        }
+      ]
+    },
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "vn-customs-duty-free"
+          ],
+          "text": "Foreign currency of USD 5,000 or more, or VND 15,000,000 or more, must be declared on arrival."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "vn-customs-duty-free"
+        ],
+        "text": "Other personal items and gifts up to VND 10,000,000 (about USD 400) pass duty-free; above that, goods must be declared."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "vn-customs-duty-free"
+          ],
+          "text": "Duty-free: 200 cigarettes, or 20 cigars, or 250g of tobacco."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "HAN",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "General Department of Vietnam Customs",
+      "id": "vn-customs-duty-free",
+      "jurisdiction": "VN",
+      "pageTitle": "Duty-free allowances in Vietnam",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.cashDeclaration.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.customs.gov.vn/index.jsp?pageId=2281&aid=157208&cid=4208"
+    }
+  ]
 }
