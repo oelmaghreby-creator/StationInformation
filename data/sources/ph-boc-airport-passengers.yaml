@@ -1,0 +1,12 @@
+id: ph-boc-airport-passengers
+authorityName: Bureau of Customs (Philippines)
+pageTitle: 'Guidelines for Airport Passengers'
+url: https://customs.gov.ph/guidelines-for-airport-passengers/
+jurisdiction: PH
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.declarationRequirements
+sourceType: customs

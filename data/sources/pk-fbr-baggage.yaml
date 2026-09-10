@@ -1,0 +1,12 @@
+id: pk-fbr-baggage
+authorityName: Federal Board of Revenue - Pakistan Customs
+pageTitle: 'Baggage Rules / Travel Guide'
+url: https://download1.fbr.gov.pk/docs/201011815113751218brochure-014.pdf
+jurisdiction: PK
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.tobacco.rules
+  - customs.prohibitedItems
+  - crewNotes
+sourceType: customs

@@ -1,0 +1,12 @@
+id: eg-customs-travel
+authorityName: Egyptian Customs Authority
+pageTitle: 'Travel and Tourism - Passenger Customs Rules'
+url: https://www.customs.gov.eg/Legislations/TravelAndTourism?travelAndTourismId=1
+jurisdiction: EG
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.declarationRequirements
+sourceType: customs

@@ -4,11 +4,28 @@ customs:
   foodAndAgriculture: []
   medicines: []
   cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  alcohol:
+    rules:
+      - text: >-
+          Up to 2 bottles of liquor, with a total value under PHP 10,000, are
+          exempt from duty and tax.
+        sourceIds:
+          - ph-boc-airport-passengers
+  tobacco:
+    rules:
+      - text: >-
+          Up to 2 reams of cigarettes, or 50 cigars, or 250g of pipe tobacco,
+          are exempt from duty and tax.
+        sourceIds:
+          - ph-boc-airport-passengers
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        Personal goods valued at PHP 10,000 or below are free of duty and tax;
+        higher-value goods must be declared.
+      sourceIds:
+        - ph-boc-airport-passengers
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +36,13 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      General Philippine traveller allowances; crew should confirm any
+      crew-specific treatment with the Bureau of Customs. Compiled from the
+      cited BOC guidelines, pending final authority review.
+    sourceIds:
+      - ph-boc-airport-passengers
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

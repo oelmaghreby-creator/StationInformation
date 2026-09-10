@@ -3,12 +3,35 @@ countryName: Indonesia
 customs:
   foodAndAgriculture: []
   medicines: []
-  cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  cashDeclaration:
+    rules:
+      - text: >-
+          Cash or equivalent of IDR 100,000,000 or more (or the foreign-currency
+          equivalent) must be declared on arrival or departure.
+        sourceIds:
+          - id-beacukai-passenger
+  alcohol:
+    rules:
+      - text: >-
+          Passengers aged 21 or over may bring in a maximum of 1 litre of
+          alcoholic beverage.
+        sourceIds:
+          - id-beacukai-passenger
+  tobacco:
+    rules:
+      - text: >-
+          Passenger allowance is up to 200 cigarettes, or 25 cigars, or 100g of
+          loose tobacco (with separate limits for e-cigarettes/e-liquid).
+        sourceIds:
+          - id-beacukai-passenger
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        Personal goods up to USD 500 FOB per person per arrival are exempt;
+        above that, 10% import duty plus taxes apply.
+      sourceIds:
+        - id-beacukai-passenger
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +42,13 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      IMPORTANT: these are PASSENGER allowances - Indonesian regulations give
+      operating CREW reduced allowances, so confirm the crew figures with Bea
+      Cukai. Compiled from the cited Bea Cukai guidance, pending final review.
+    sourceIds:
+      - id-beacukai-passenger
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

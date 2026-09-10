@@ -1,0 +1,11 @@
+id: lk-customs-travellers
+authorityName: Sri Lanka Customs
+pageTitle: 'Travellers - Passenger Guide and Duty-Free Allowances'
+url: https://www.customs.gov.lk/personal/travellers/
+jurisdiction: LK
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.declarationRequirements
+sourceType: customs

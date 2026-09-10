@@ -1,0 +1,13 @@
+id: my-rmcd-travelers-guide
+authorityName: Royal Malaysian Customs Department (RMCD)
+pageTitle: "Traveler's Guide"
+url: https://www.customs.gov.my/en/individu/pengembara/travelers-guide
+jurisdiction: MY
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.cashDeclaration.rules
+  - customs.declarationRequirements
+sourceType: customs

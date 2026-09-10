@@ -4,11 +4,23 @@ customs:
   foodAndAgriculture: []
   medicines: []
   cashDeclaration: {}
-  alcohol: {}
+  alcohol:
+    rules:
+      - text: >-
+          Tourists may bring in up to 2 regular bottles of wine and up to 1.5
+          litres of spirits duty-free.
+        sourceIds:
+          - lk-customs-travellers
   tobacco: {}
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        The duty-free goods allowance depends on length of stay - for stays
+        under 90 days it is about USD 187.50 (duty-free shop). Foreign currency
+        and gold jewellery must be declared to the Customs Arrival officer.
+      sourceIds:
+        - lk-customs-travellers
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +31,13 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      General Sri Lanka traveller allowances (tourist category); crew should
+      confirm crew-specific treatment. Compiled from the cited Sri Lanka Customs
+      guide, pending final authority review.
+    sourceIds:
+      - lk-customs-travellers
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

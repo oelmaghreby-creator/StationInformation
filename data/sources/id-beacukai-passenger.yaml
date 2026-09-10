@@ -1,0 +1,13 @@
+id: id-beacukai-passenger
+authorityName: Directorate General of Customs and Excise (Bea Cukai)
+pageTitle: 'Passenger Goods (Barang Penumpang)'
+url: https://www.beacukai.go.id/barang-penumpang
+jurisdiction: ID
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.cashDeclaration.rules
+  - customs.declarationRequirements
+sourceType: customs

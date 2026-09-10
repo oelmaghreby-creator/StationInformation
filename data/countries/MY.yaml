@@ -3,12 +3,36 @@ countryName: Malaysia
 customs:
   foodAndAgriculture: []
   medicines: []
-  cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  cashDeclaration:
+    rules:
+      - text: >-
+          Travellers entering or leaving Malaysia with cash and bearer negotiable
+          instruments amounting to or exceeding USD 10,000 must declare it
+          (Customs Form No. 7).
+        sourceIds:
+          - my-rmcd-travelers-guide
+  alcohol:
+    rules:
+      - text: >-
+          Wine, spirits, beer or malt liquor not exceeding 1 litre in total is
+          exempt from duty and tax.
+        sourceIds:
+          - my-rmcd-travelers-guide
+  tobacco:
+    rules:
+      - text: >-
+          Cigarettes and tobacco products are NOT duty-free in Malaysia; any
+          quantity must be declared and is subject to duty and tax.
+        sourceIds:
+          - my-rmcd-travelers-guide
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        For air travellers, goods (excluding cigarettes and tobacco) up to
+        RM1,000 in total value are exempt; above that, goods must be declared.
+      sourceIds:
+        - my-rmcd-travelers-guide
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +43,14 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      Note: tobacco is not duty-free in Malaysia - declare any cigarettes.
+      General traveller allowances; crew should confirm any crew-specific
+      treatment with RMCD. Compiled from the cited RMCD guide, pending final
+      authority review.
+    sourceIds:
+      - my-rmcd-travelers-guide
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

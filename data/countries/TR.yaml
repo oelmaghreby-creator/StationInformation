@@ -4,11 +4,28 @@ customs:
   foodAndAgriculture: []
   medicines: []
   cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  alcohol:
+    rules:
+      - text: >-
+          Per passenger: 1 litre of spirits over 22% alcohol, or 2 litres of
+          alcoholic drinks at 22% or below.
+        sourceIds:
+          - tr-trade-passenger
+  tobacco:
+    rules:
+      - text: >-
+          Per passenger: 600 cigarettes, plus 100 cigarillos, 50 cigars, and
+          250g of pipe/shredded tobacco.
+        sourceIds:
+          - tr-trade-passenger
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        Accompanied baggage goods up to EUR 430 in value (EUR 150 for under-15s)
+        are exempt; higher-value goods are taxed or must be declared.
+      sourceIds:
+        - tr-trade-passenger
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +36,13 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      General Türkiye traveller allowances; crew should confirm any crew-specific
+      treatment with the Ministry of Trade. Compiled from the cited guidance,
+      pending final authority review.
+    sourceIds:
+      - tr-trade-passenger
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

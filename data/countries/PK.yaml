@@ -5,8 +5,20 @@ customs:
   medicines: []
   cashDeclaration: {}
   alcohol: {}
-  tobacco: {}
-  prohibitedItems: []
+  tobacco:
+    rules:
+      - text: >-
+          Allowance for residents aged 18 or over is 200 cigarettes, or 50
+          cigars, or 0.5 kg of tobacco (halved on a second visit in a calendar
+          year, not admissible on the third).
+        sourceIds:
+          - pk-fbr-baggage
+  prohibitedItems:
+    - text: >-
+          Import of alcoholic beverages into Pakistan is strictly prohibited for
+          residents and non-residents alike; do not carry any alcohol.
+      sourceIds:
+        - pk-fbr-baggage
   restrictedItems: []
   declarationRequirements: []
 baggageSecurity:
@@ -19,7 +31,13 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      IMPORTANT: alcohol is prohibited in Pakistan - do not carry any in
+      baggage. Compiled from the cited FBR baggage rules, pending final
+      authority review.
+    sourceIds:
+      - pk-fbr-baggage
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

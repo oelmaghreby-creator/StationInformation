@@ -1,0 +1,12 @@
+id: tr-trade-passenger
+authorityName: Republic of Türkiye Ministry of Trade
+pageTitle: 'Passenger Transactions and Allowances'
+url: https://www.trade.gov.tr/customs-formalities/frequently-asked-questions/passenger-transactions
+jurisdiction: TR
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.declarationRequirements
+sourceType: customs
