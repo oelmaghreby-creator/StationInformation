@@ -18,22 +18,79 @@
     "iso2": "JO",
     "name": "Jordan"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "jo-customs-travellers"
+      ],
+      "text": "General Jordan traveller allowances; crew should confirm any crew-specific treatment with the Jordan Customs Department. Compiled from customs guidance, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
-    "cashDeclaration": {},
-    "declarationRequirements": [],
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "jo-customs-travellers"
+          ],
+          "text": "Travellers aged 18 or over may bring in 1 bottle of alcohol (maximum 1 litre) for personal use."
+        }
+      ]
+    },
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "jo-customs-travellers"
+          ],
+          "text": "Cash exceeding the equivalent of JOD 10,000 must be declared to Customs on arrival."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "jo-customs-travellers"
+        ],
+        "text": "Gifts up to JOD 200 in value are permitted; commercial goods over JOD 200, more than 200 cigarettes, or more than 1 litre of alcohol must be declared."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "jo-customs-travellers"
+          ],
+          "text": "Travellers aged 18 or over may bring in 200 cigarettes, or 25 cigars, or 200g of pipe tobacco."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "AMM",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Jordan Customs Department",
+      "id": "jo-customs-travellers",
+      "jurisdiction": "JO",
+      "pageTitle": "Travellers - customs allowances",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.cashDeclaration.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.customs.gov.jo"
+    }
+  ]
 }

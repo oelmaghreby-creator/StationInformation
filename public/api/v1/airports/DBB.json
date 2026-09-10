@@ -18,22 +18,69 @@
     "iso2": "EG",
     "name": "Egypt"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "eg-customs-travel"
+      ],
+      "text": "General Egypt traveller allowances; crew should confirm any crew-specific treatment with the Egyptian Customs Authority. Compiled from the cited guidance, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "eg-customs-travel"
+          ],
+          "text": "One litre of spirits is permitted on arrival. In addition, tourists may buy up to 3 litres of spirits from a duty-free shop within 48 hours of arrival (reduced duty on the first two litres)."
+        }
+      ]
+    },
     "cashDeclaration": {},
-    "declarationRequirements": [],
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "eg-customs-travel"
+        ],
+        "text": "New personal goods and gifts up to EGP 15,000 in value are exempt for tourists and returning residents; higher-value goods are subject to duty."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "eg-customs-travel"
+          ],
+          "text": "One carton of 200 cigarettes, or 25 cigars, or 200g of tobacco."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "DBB",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Egyptian Customs Authority",
+      "id": "eg-customs-travel",
+      "jurisdiction": "EG",
+      "pageTitle": "Travel and Tourism - Passenger Customs Rules",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.customs.gov.eg/Legislations/TravelAndTourism?travelAndTourismId=1"
+    }
+  ]
 }

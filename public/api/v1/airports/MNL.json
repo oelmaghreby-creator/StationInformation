@@ -18,22 +18,69 @@
     "iso2": "PH",
     "name": "Philippines"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "ph-boc-airport-passengers"
+      ],
+      "text": "General Philippine traveller allowances; crew should confirm any crew-specific treatment with the Bureau of Customs. Compiled from the cited BOC guidelines, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "ph-boc-airport-passengers"
+          ],
+          "text": "Up to 2 bottles of liquor, with a total value under PHP 10,000, are exempt from duty and tax."
+        }
+      ]
+    },
     "cashDeclaration": {},
-    "declarationRequirements": [],
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "ph-boc-airport-passengers"
+        ],
+        "text": "Personal goods valued at PHP 10,000 or below are free of duty and tax; higher-value goods must be declared."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "ph-boc-airport-passengers"
+          ],
+          "text": "Up to 2 reams of cigarettes, or 50 cigars, or 250g of pipe tobacco, are exempt from duty and tax."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "MNL",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Bureau of Customs (Philippines)",
+      "id": "ph-boc-airport-passengers",
+      "jurisdiction": "PH",
+      "pageTitle": "Guidelines for Airport Passengers",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://customs.gov.ph/guidelines-for-airport-passengers/"
+    }
+  ]
 }

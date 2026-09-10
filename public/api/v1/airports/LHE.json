@@ -18,22 +18,60 @@
     "iso2": "PK",
     "name": "Pakistan"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "pk-fbr-baggage"
+      ],
+      "text": "IMPORTANT: alcohol is prohibited in Pakistan - do not carry any in baggage. Compiled from the cited FBR baggage rules, pending final authority review."
+    }
+  ],
   "customs": {
     "alcohol": {},
     "cashDeclaration": {},
     "declarationRequirements": [],
     "foodAndAgriculture": [],
     "medicines": [],
-    "prohibitedItems": [],
+    "prohibitedItems": [
+      {
+        "sourceIds": [
+          "pk-fbr-baggage"
+        ],
+        "text": "Import of alcoholic beverages into Pakistan is strictly prohibited for residents and non-residents alike; do not carry any alcohol."
+      }
+    ],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "pk-fbr-baggage"
+          ],
+          "text": "Allowance for residents aged 18 or over is 200 cigarettes, or 50 cigars, or 0.5 kg of tobacco (halved on a second visit in a calendar year, not admissible on the third)."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "LHE",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Federal Board of Revenue - Pakistan Customs",
+      "id": "pk-fbr-baggage",
+      "jurisdiction": "PK",
+      "pageTitle": "Baggage Rules / Travel Guide",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.tobacco.rules",
+        "customs.prohibitedItems",
+        "crewNotes"
+      ],
+      "url": "https://download1.fbr.gov.pk/docs/201011815113751218brochure-014.pdf"
+    }
+  ]
 }

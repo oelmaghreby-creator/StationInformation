@@ -18,11 +18,34 @@
     "iso2": "LK",
     "name": "Sri Lanka"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "lk-customs-travellers"
+      ],
+      "text": "General Sri Lanka traveller allowances (tourist category); crew should confirm crew-specific treatment. Compiled from the cited Sri Lanka Customs guide, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "lk-customs-travellers"
+          ],
+          "text": "Tourists may bring in up to 2 regular bottles of wine and up to 1.5 litres of spirits duty-free."
+        }
+      ]
+    },
     "cashDeclaration": {},
-    "declarationRequirements": [],
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "lk-customs-travellers"
+        ],
+        "text": "The duty-free goods allowance depends on length of stay - for stays under 90 days it is about USD 187.50 (duty-free shop). Foreign currency and gold jewellery must be declared to the Customs Arrival officer."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
@@ -33,7 +56,21 @@
   "iataCode": "CMB",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Sri Lanka Customs",
+      "id": "lk-customs-travellers",
+      "jurisdiction": "LK",
+      "pageTitle": "Travellers - Passenger Guide and Duty-Free Allowances",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.customs.gov.lk/personal/travellers/"
+    }
+  ]
 }

@@ -18,22 +18,79 @@
     "iso2": "MY",
     "name": "Malaysia"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "my-rmcd-travelers-guide"
+      ],
+      "text": "Note: tobacco is not duty-free in Malaysia - declare any cigarettes. General traveller allowances; crew should confirm any crew-specific treatment with RMCD. Compiled from the cited RMCD guide, pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
-    "cashDeclaration": {},
-    "declarationRequirements": [],
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "my-rmcd-travelers-guide"
+          ],
+          "text": "Wine, spirits, beer or malt liquor not exceeding 1 litre in total is exempt from duty and tax."
+        }
+      ]
+    },
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "my-rmcd-travelers-guide"
+          ],
+          "text": "Travellers entering or leaving Malaysia with cash and bearer negotiable instruments amounting to or exceeding USD 10,000 must declare it (Customs Form No. 7)."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "my-rmcd-travelers-guide"
+        ],
+        "text": "For air travellers, goods (excluding cigarettes and tobacco) up to RM1,000 in total value are exempt; above that, goods must be declared."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "my-rmcd-travelers-guide"
+          ],
+          "text": "Cigarettes and tobacco products are NOT duty-free in Malaysia; any quantity must be declared and is subject to duty and tax."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "KUL",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Royal Malaysian Customs Department (RMCD)",
+      "id": "my-rmcd-travelers-guide",
+      "jurisdiction": "MY",
+      "pageTitle": "Traveler's Guide",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.cashDeclaration.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.customs.gov.my/en/individu/pengembara/travelers-guide"
+    }
+  ]
 }

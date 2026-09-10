@@ -18,22 +18,79 @@
     "iso2": "ID",
     "name": "Indonesia"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "id-beacukai-passenger"
+      ],
+      "text": "IMPORTANT: these are PASSENGER allowances - Indonesian regulations give operating CREW reduced allowances, so confirm the crew figures with Bea Cukai. Compiled from the cited Bea Cukai guidance, pending final review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
-    "cashDeclaration": {},
-    "declarationRequirements": [],
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "id-beacukai-passenger"
+          ],
+          "text": "Passengers aged 21 or over may bring in a maximum of 1 litre of alcoholic beverage."
+        }
+      ]
+    },
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "id-beacukai-passenger"
+          ],
+          "text": "Cash or equivalent of IDR 100,000,000 or more (or the foreign-currency equivalent) must be declared on arrival or departure."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "id-beacukai-passenger"
+        ],
+        "text": "Personal goods up to USD 500 FOB per person per arrival are exempt; above that, 10% import duty plus taxes apply."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "id-beacukai-passenger"
+          ],
+          "text": "Passenger allowance is up to 200 cigarettes, or 25 cigars, or 100g of loose tobacco (with separate limits for e-cigarettes/e-liquid)."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "DPS",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Directorate General of Customs and Excise (Bea Cukai)",
+      "id": "id-beacukai-passenger",
+      "jurisdiction": "ID",
+      "pageTitle": "Passenger Goods (Barang Penumpang)",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.cashDeclaration.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://www.beacukai.go.id/barang-penumpang"
+    }
+  ]
 }
