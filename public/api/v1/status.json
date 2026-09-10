@@ -1,9 +1,9 @@
 {
   "builtAt": "2026-08-25T00:00:00Z",
   "counts": {
-    "airports": 97,
-    "countries": 55,
-    "sources": 11
+    "airports": 98,
+    "countries": 56,
+    "sources": 14
   },
   "datasetVersion": "1.0.0",
   "oldestVerificationDate": null,

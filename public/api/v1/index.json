@@ -31,7 +31,7 @@
       },
       "endpoint": "/api/v1/airports/AGP.json",
       "iataCode": "AGP",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "AMD airport (research pending)",
@@ -64,7 +64,7 @@
       },
       "endpoint": "/api/v1/airports/AMS.json",
       "iataCode": "AMS",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "ATH airport (research pending)",
@@ -75,7 +75,7 @@
       },
       "endpoint": "/api/v1/airports/ATH.json",
       "iataCode": "ATH",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "ATL airport (research pending)",
@@ -86,7 +86,18 @@
       },
       "endpoint": "/api/v1/airports/ATL.json",
       "iataCode": "ATL",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
+    },
+    {
+      "airportName": "Abu Dhabi airport (research pending)",
+      "city": "Abu Dhabi",
+      "country": {
+        "iso2": "AE",
+        "name": "United Arab Emirates"
+      },
+      "endpoint": "/api/v1/airports/AUH.json",
+      "iataCode": "AUH",
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "BAH airport (research pending)",
@@ -108,7 +119,7 @@
       },
       "endpoint": "/api/v1/airports/BCN.json",
       "iataCode": "BCN",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "BEY airport (research pending)",
@@ -163,7 +174,7 @@
       },
       "endpoint": "/api/v1/airports/BOS.json",
       "iataCode": "BOS",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "BRU airport (research pending)",
@@ -174,7 +185,7 @@
       },
       "endpoint": "/api/v1/airports/BRU.json",
       "iataCode": "BRU",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "CAI airport (research pending)",
@@ -218,7 +229,7 @@
       },
       "endpoint": "/api/v1/airports/CDG.json",
       "iataCode": "CDG",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "CGK airport (research pending)",
@@ -240,7 +251,7 @@
       },
       "endpoint": "/api/v1/airports/CLT.json",
       "iataCode": "CLT",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "CMB airport (research pending)",
@@ -284,7 +295,7 @@
       },
       "endpoint": "/api/v1/airports/CPH.json",
       "iataCode": "CPH",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "DAC airport (research pending)",
@@ -372,7 +383,7 @@
       },
       "endpoint": "/api/v1/airports/DUB.json",
       "iataCode": "DUB",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "DUS airport (research pending)",
@@ -383,7 +394,7 @@
       },
       "endpoint": "/api/v1/airports/DUS.json",
       "iataCode": "DUS",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "ELQ airport (research pending)",
@@ -405,7 +416,7 @@
       },
       "endpoint": "/api/v1/airports/FCO.json",
       "iataCode": "FCO",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "FRA airport (research pending)",
@@ -416,7 +427,7 @@
       },
       "endpoint": "/api/v1/airports/FRA.json",
       "iataCode": "FRA",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "GVA airport (research pending)",
@@ -493,7 +504,7 @@
       },
       "endpoint": "/api/v1/airports/IAD.json",
       "iataCode": "IAD",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "ICN airport (research pending)",
@@ -559,7 +570,7 @@
       },
       "endpoint": "/api/v1/airports/JFK.json",
       "iataCode": "JFK",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "JMK airport (research pending)",
@@ -570,7 +581,7 @@
       },
       "endpoint": "/api/v1/airports/JMK.json",
       "iataCode": "JMK",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "JNB airport (research pending)",
@@ -592,7 +603,7 @@
       },
       "endpoint": "/api/v1/airports/JTR.json",
       "iataCode": "JTR",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "KBL airport (research pending)",
@@ -636,7 +647,7 @@
       },
       "endpoint": "/api/v1/airports/KRK.json",
       "iataCode": "KRK",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "KTI airport (research pending)",
@@ -702,7 +713,7 @@
       },
       "endpoint": "/api/v1/airports/LIS.json",
       "iataCode": "LIS",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "MAA airport (research pending)",
@@ -724,7 +735,7 @@
       },
       "endpoint": "/api/v1/airports/MAD.json",
       "iataCode": "MAD",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "MAN airport (research pending)",
@@ -801,7 +812,7 @@
       },
       "endpoint": "/api/v1/airports/MUC.json",
       "iataCode": "MUC",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "MXP airport (research pending)",
@@ -812,7 +823,7 @@
       },
       "endpoint": "/api/v1/airports/MXP.json",
       "iataCode": "MXP",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "NBO airport (research pending)",
@@ -834,7 +845,7 @@
       },
       "endpoint": "/api/v1/airports/NCE.json",
       "iataCode": "NCE",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "NRT airport (research pending)",
@@ -856,7 +867,7 @@
       },
       "endpoint": "/api/v1/airports/ORD.json",
       "iataCode": "ORD",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "PEW airport (research pending)",
@@ -889,7 +900,7 @@
       },
       "endpoint": "/api/v1/airports/PMI.json",
       "iataCode": "PMI",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "PRG airport (research pending)",
@@ -900,7 +911,7 @@
       },
       "endpoint": "/api/v1/airports/PRG.json",
       "iataCode": "PRG",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "RUH airport (research pending)",
@@ -1021,7 +1032,7 @@
       },
       "endpoint": "/api/v1/airports/VIE.json",
       "iataCode": "VIE",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "WAW airport (research pending)",
@@ -1032,7 +1043,7 @@
       },
       "endpoint": "/api/v1/airports/WAW.json",
       "iataCode": "WAW",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "YYZ airport (research pending)",

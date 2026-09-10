@@ -18,22 +18,79 @@
     "iso2": "ES",
     "name": "Spain"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "eu-youreurope-allowances"
+      ],
+      "text": "These are the EU-wide traveller allowances for arrivals from outside the EU. Individual member states may set lower limits or reduce allowances for operating crew, so confirm the Spain national rule. Compiled from the cited EU guidance and pending final authority review."
+    }
+  ],
   "customs": {
-    "alcohol": {},
-    "cashDeclaration": {},
-    "declarationRequirements": [],
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "eu-youreurope-allowances"
+          ],
+          "text": "Arriving from outside the EU, the allowance is 4 litres of still wine and 16 litres of beer, plus one of: 1 litre of spirits over 22% vol, 1 litre of undenatured ethyl alcohol 80% vol or higher, or 2 litres of fortified or sparkling wine. Some member states apply lower limits."
+        }
+      ]
+    },
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "eu-youreurope-allowances"
+          ],
+          "text": "Travellers entering or leaving the EU carrying EUR 10,000 or more (or the equivalent in another currency) must declare it to customs."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "eu-youreurope-allowances"
+        ],
+        "text": "For air travellers arriving from outside the EU, goods (other than the tobacco and alcohol allowances) up to EUR 430 in value are free of duty and tax; above that, goods must be declared."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
     "prohibitedItems": [],
     "restrictedItems": [],
-    "tobacco": {}
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "eu-youreurope-allowances"
+          ],
+          "text": "Arriving from outside the EU, the allowance is 200 cigarettes, or 100 cigarillos, or 50 cigars, or 250g of tobacco. Some member states apply lower limits (e.g. 40 cigarettes)."
+        }
+      ]
+    }
   },
   "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
   "iataCode": "PMI",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "European Union (Your Europe / European Commission)",
+      "id": "eu-youreurope-allowances",
+      "jurisdiction": "EU",
+      "pageTitle": "Travelling in the EU: alcohol, tobacco and cash",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.cashDeclaration.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://europa.eu/youreurope/citizens/travel/carry/alcohol-tobacco-cash/index_en.htm"
+    }
+  ]
 }

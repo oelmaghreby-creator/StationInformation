@@ -1,0 +1,91 @@
+{
+  "baggageSecurity": {
+    "checkedCargoBag": {
+      "batteriesAndElectronics": [],
+      "knivesAndSharpObjects": [],
+      "prohibitedItems": []
+    },
+    "handBaggage": {
+      "batteriesAndElectronics": [],
+      "liquids": [],
+      "prohibitedItems": [],
+      "sharpObjects": []
+    }
+  },
+  "countryName": "United Arab Emirates",
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "ae-federal-customs"
+      ],
+      "text": "Figures compiled from UAE federal customs guidance and pending verification against the exact authority page. Operating crew should confirm any crew-specific treatment with UAE customs."
+    }
+  ],
+  "customs": {
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "ae-federal-customs"
+          ],
+          "text": "Non-Muslim travellers aged 18 or over may bring in up to 4 litres of alcohol, or 2 cartons of beer (24 cans each, not exceeding 355 ml per can), for personal use."
+        }
+      ]
+    },
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "ae-federal-customs"
+          ],
+          "text": "Travellers aged 18 or over entering the UAE must declare cash or equivalent monetary instruments of AED 60,000 or more."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "ae-federal-customs"
+        ],
+        "text": "Gifts and personal goods up to AED 3,000 in value are admitted free of duty; goods above that value, and any restricted items, must be declared."
+      }
+    ],
+    "foodAndAgriculture": [],
+    "medicines": [],
+    "prohibitedItems": [],
+    "restrictedItems": [],
+    "tobacco": {
+      "rules": [
+        {
+          "sourceIds": [
+            "ae-federal-customs"
+          ],
+          "text": "The traveller tobacco allowance is 400 cigarettes, plus 50 cigars, plus 500 grams of tobacco."
+        }
+      ]
+    }
+  },
+  "disclaimer": "Verify current requirements with the relevant authority and airline procedures before travel.",
+  "iso2": "AE",
+  "lastVerified": null,
+  "nextReviewDue": null,
+  "reviewStatus": "needs_review",
+  "schemaVersion": "1.0.0",
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Federal Authority for Identity, Citizenship, Customs and Port Security (UAE)",
+      "id": "ae-federal-customs",
+      "jurisdiction": "AE",
+      "pageTitle": "UAE customs — traveller duty-free allowance",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.tobacco.rules",
+        "customs.cashDeclaration.rules",
+        "customs.declarationRequirements"
+      ],
+      "url": "https://u.ae/en/information-and-services/passports-and-traveling"
+    }
+  ]
+}
