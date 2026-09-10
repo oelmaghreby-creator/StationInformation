@@ -23,16 +23,39 @@
       "sourceIds": [
         "sa-zatca-traveller-luggage"
       ],
-      "text": "No verified crew-specific allowance was identified in the listed official sources; contact the station or authority before carrying restricted goods."
+      "text": "IMPORTANT: alcohol is illegal in Saudi Arabia. Do not carry any alcohol in hand or checked baggage - penalties are severe. Figures compiled from the cited ZATCA guidance and pending final authority review."
     }
   ],
   "customs": {
     "alcohol": {},
-    "cashDeclaration": {},
-    "declarationRequirements": [],
+    "cashDeclaration": {
+      "rules": [
+        {
+          "sourceIds": [
+            "sa-zatca-traveller-luggage"
+          ],
+          "text": "Travellers must declare cash or equivalent monetary instruments of SAR 60,000 or more on entering or leaving Saudi Arabia."
+        }
+      ]
+    },
+    "declarationRequirements": [
+      {
+        "sourceIds": [
+          "sa-zatca-traveller-luggage"
+        ],
+        "text": "Personal luggage and gifts of a personal, non-commercial nature up to a total value of SAR 3,000 are admitted duty-free; higher-value or commercial goods must be declared."
+      }
+    ],
     "foodAndAgriculture": [],
     "medicines": [],
-    "prohibitedItems": [],
+    "prohibitedItems": [
+      {
+        "sourceIds": [
+          "sa-zatca-traveller-luggage"
+        ],
+        "text": "Alcohol and alcoholic beverages are strictly prohibited in Saudi Arabia and must not be brought in under any circumstances. Pork products and materials contrary to Islamic values are also prohibited."
+      }
+    ],
     "restrictedItems": [],
     "tobacco": {}
   },
@@ -40,7 +63,7 @@
   "iataCode": "DMM",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
   "sources": [
     {

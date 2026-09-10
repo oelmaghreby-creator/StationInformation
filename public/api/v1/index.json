@@ -141,7 +141,7 @@
       },
       "endpoint": "/api/v1/airports/BKK.json",
       "iataCode": "BKK",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "BLR airport (research pending)",
@@ -350,7 +350,7 @@
       },
       "endpoint": "/api/v1/airports/DMM.json",
       "iataCode": "DMM",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "DOH airport (research pending)",
@@ -405,7 +405,7 @@
       },
       "endpoint": "/api/v1/airports/ELQ.json",
       "iataCode": "ELQ",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "FCO airport (research pending)",
@@ -482,7 +482,7 @@
       },
       "endpoint": "/api/v1/airports/HKT.json",
       "iataCode": "HKT",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "HYD airport (research pending)",
@@ -559,7 +559,7 @@
       },
       "endpoint": "/api/v1/airports/JED.json",
       "iataCode": "JED",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "JFK airport (research pending)",
@@ -768,7 +768,7 @@
       },
       "endpoint": "/api/v1/airports/MED.json",
       "iataCode": "MED",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "MEL airport (research pending)",
@@ -922,7 +922,7 @@
       },
       "endpoint": "/api/v1/airports/RUH.json",
       "iataCode": "RUH",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "Singapore Changi Airport",
