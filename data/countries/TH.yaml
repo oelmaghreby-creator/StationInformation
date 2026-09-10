@@ -4,11 +4,29 @@ customs:
   foodAndAgriculture: []
   medicines: []
   cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  alcohol:
+    rules:
+      - text: >-
+          Arriving travellers may bring in no more than 1 litre of alcoholic
+          beverage duty-free.
+        sourceIds:
+          - th-customs-arriving-passengers
+  tobacco:
+    rules:
+      - text: >-
+          Arriving travellers may bring in no more than 200 cigarettes, or 250g
+          of tobacco, or 250g of all types combined, duty-free.
+        sourceIds:
+          - th-customs-arriving-passengers
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        Personal belongings up to a total value of THB 20,000 are exempt from
+        duty (excluding prohibited/restricted items and food); higher-value
+        goods must be declared.
+      sourceIds:
+        - th-customs-arriving-passengers
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -21,11 +39,11 @@ baggageSecurity:
     prohibitedItems: []
 crewNotes:
   - text: >-
-      No verified crew-specific allowance was identified in the listed official
-      sources; contact the station or authority before carrying restricted
-      goods.
+      General Thai traveller allowances; operating crew should confirm any
+      crew-specific treatment with Thai Customs. Compiled from the cited Thai
+      Customs guidance and pending final authority review.
     sourceIds:
       - th-customs-arriving-passengers
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'
