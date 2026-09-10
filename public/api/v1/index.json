@@ -108,7 +108,7 @@
       },
       "endpoint": "/api/v1/airports/BAH.json",
       "iataCode": "BAH",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "BCN airport (research pending)",
@@ -361,7 +361,7 @@
       },
       "endpoint": "/api/v1/airports/DOH.json",
       "iataCode": "DOH",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "DPS airport (research pending)",
@@ -680,7 +680,7 @@
       },
       "endpoint": "/api/v1/airports/KWI.json",
       "iataCode": "KWI",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "LHE airport (research pending)",
@@ -757,7 +757,7 @@
       },
       "endpoint": "/api/v1/airports/MCT.json",
       "iataCode": "MCT",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "MED airport (research pending)",
@@ -944,7 +944,7 @@
       },
       "endpoint": "/api/v1/airports/SLL.json",
       "iataCode": "SLL",
-      "reviewStatus": "research_pending"
+      "reviewStatus": "needs_review"
     },
     {
       "airportName": "SVO airport (research pending)",

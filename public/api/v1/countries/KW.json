@@ -13,14 +13,28 @@
     }
   },
   "countryName": "Kuwait",
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "kw-general-administration-customs"
+      ],
+      "text": "IMPORTANT: do not carry alcohol into Kuwait in hand or checked baggage - it is prohibited. Compiled from established customs guidance; the authority's online allowance page could not be auto-verified, so tobacco, cash and goods figures are pending confirmation with Kuwait customs."
+    }
+  ],
   "customs": {
     "alcohol": {},
     "cashDeclaration": {},
     "declarationRequirements": [],
     "foodAndAgriculture": [],
     "medicines": [],
-    "prohibitedItems": [],
+    "prohibitedItems": [
+      {
+        "sourceIds": [
+          "kw-general-administration-customs"
+        ],
+        "text": "Alcohol and alcoholic beverages must not be brought into Kuwait. Personal import of alcohol is prohibited and penalties are severe."
+      }
+    ],
     "restrictedItems": [],
     "tobacco": {}
   },
@@ -28,7 +42,22 @@
   "iso2": "KW",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "General Administration of Customs",
+      "id": "kw-general-administration-customs",
+      "jurisdiction": "KW",
+      "pageTitle": "Customs — traveller information",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.prohibitedItems",
+        "crewNotes"
+      ],
+      "url": "https://www.customs.gov.kw"
+    }
+  ]
 }

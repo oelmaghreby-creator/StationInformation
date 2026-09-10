@@ -18,9 +18,25 @@
     "iso2": "OM",
     "name": "Oman"
   },
-  "crewNotes": [],
+  "crewNotes": [
+    {
+      "sourceIds": [
+        "om-directorate-general-customs"
+      ],
+      "text": "Alcohol is permitted for non-Muslim adults in limited quantity; confirm the exact limit. Compiled from established customs guidance; the authority's online allowance page could not be auto-verified, so tobacco, cash and goods figures are pending confirmation with Oman customs."
+    }
+  ],
   "customs": {
-    "alcohol": {},
+    "alcohol": {
+      "rules": [
+        {
+          "sourceIds": [
+            "om-directorate-general-customs"
+          ],
+          "text": "Non-Muslim adult travellers may bring in a limited quantity of alcohol for personal use. Confirm the exact permitted amount with Oman customs."
+        }
+      ]
+    },
     "cashDeclaration": {},
     "declarationRequirements": [],
     "foodAndAgriculture": [],
@@ -33,7 +49,22 @@
   "iataCode": "MCT",
   "lastVerified": null,
   "nextReviewDue": null,
-  "reviewStatus": "research_pending",
+  "reviewStatus": "needs_review",
   "schemaVersion": "1.0.0",
-  "sources": []
+  "sources": [
+    {
+      "accessedAt": "2026-09-10",
+      "authorityName": "Directorate General of Customs",
+      "id": "om-directorate-general-customs",
+      "jurisdiction": "OM",
+      "pageTitle": "Customs — traveller information",
+      "sourceType": "customs",
+      "supportsFields": [
+        "customs.alcohol.rules",
+        "customs.prohibitedItems",
+        "crewNotes"
+      ],
+      "url": "https://www.customs.gov.om"
+    }
+  ]
 }
