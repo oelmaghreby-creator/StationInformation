@@ -3,12 +3,36 @@ countryName: Japan
 customs:
   foodAndAgriculture: []
   medicines: []
-  cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  cashDeclaration:
+    rules:
+      - text: >-
+          Cash or payment instruments exceeding JPY 1,000,000 (or equivalent)
+          must be declared to Customs.
+        sourceIds:
+          - jp-customs-passenger
+  alcohol:
+    rules:
+      - text: >-
+          Adults may bring in 3 bottles of alcoholic beverages (about 760 ml
+          each) duty-free.
+        sourceIds:
+          - jp-customs-passenger
+  tobacco:
+    rules:
+      - text: >-
+          Adults may bring in 200 cigarettes, or 50 cigars, or 10 packages of
+          heat-not-burn tobacco, or 250g of other tobacco (250g combined limit).
+        sourceIds:
+          - jp-customs-passenger
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        Other goods with a total overseas market value up to JPY 200,000 are
+        duty-free (items under JPY 10,000 each are excluded from the total);
+        above that, goods must be declared.
+      sourceIds:
+        - jp-customs-passenger
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +43,13 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      General Japan traveller allowances; crew should confirm any crew-specific
+      treatment with Japan Customs. Compiled from the cited Japan Customs guide,
+      pending final authority review.
+    sourceIds:
+      - jp-customs-passenger
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

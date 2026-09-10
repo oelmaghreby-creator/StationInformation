@@ -3,12 +3,34 @@ countryName: South Korea
 customs:
   foodAndAgriculture: []
   medicines: []
-  cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  cashDeclaration:
+    rules:
+      - text: >-
+          Funds of USD 10,000 or more (or equivalent) must be declared to Customs.
+        sourceIds:
+          - kr-kcs-passengers
+  alcohol:
+    rules:
+      - text: >-
+          Adults (19+) may bring in alcohol up to a total of 2 litres and a value
+          of USD 400. No exemption for travellers under 19.
+        sourceIds:
+          - kr-kcs-passengers
+  tobacco:
+    rules:
+      - text: >-
+          Adults (19+) may bring in 200 cigarettes (or e-cigarette liquid up to
+          20 ml). No exemption for travellers under 19.
+        sourceIds:
+          - kr-kcs-passengers
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        The general duty-free allowance for other goods is USD 800 per person;
+        goods above that must be declared.
+      sourceIds:
+        - kr-kcs-passengers
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +41,13 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      General South Korea traveller allowances; crew should confirm any
+      crew-specific treatment with the Korea Customs Service. Compiled from the
+      cited KCS guidance, pending final authority review.
+    sourceIds:
+      - kr-kcs-passengers
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

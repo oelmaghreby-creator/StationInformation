@@ -6,7 +6,14 @@ customs:
   cashDeclaration: {}
   alcohol: {}
   tobacco: {}
-  prohibitedItems: []
+  prohibitedItems:
+    - text: >-
+          Importing alcohol is prohibited - alcohol bought on board or in
+          transit duty-free shops is confiscated on arrival (it is available only
+          on resort islands). Importing pork and pork products without prior
+          approval is also prohibited.
+      sourceIds:
+        - mv-customs-tourist
   restrictedItems: []
   declarationRequirements: []
 baggageSecurity:
@@ -19,7 +26,14 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      IMPORTANT: do not carry alcohol into the Maldives - it is prohibited and
+      will be confiscated at the airport (available only at resorts). Pork is
+      also restricted. Compiled from Maldives Customs guidance, pending final
+      authority review.
+    sourceIds:
+      - mv-customs-tourist
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

@@ -3,12 +3,34 @@ countryName: Cambodia
 customs:
   foodAndAgriculture: []
   medicines: []
-  cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  cashDeclaration:
+    rules:
+      - text: >-
+          Foreign currency up to USD 10,000 (or equivalent) is allowed; amounts
+          above that must be declared on arrival.
+        sourceIds:
+          - kh-gdce-passenger
+  alcohol:
+    rules:
+      - text: >-
+          Passengers aged over 17 may bring in 2 litres of wine duty-free.
+        sourceIds:
+          - kh-gdce-passenger
+  tobacco:
+    rules:
+      - text: >-
+          Passengers aged over 17 may bring in 400 cigarettes, or 100 cigars, or
+          400g of tobacco duty-free.
+        sourceIds:
+          - kh-gdce-passenger
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        Goods worth more than USD 100 are subject to customs duty and tax and
+        must be declared.
+      sourceIds:
+        - kh-gdce-passenger
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +41,13 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      General Cambodia traveller allowances; crew should confirm any
+      crew-specific treatment with the General Department of Customs and Excise.
+      Compiled from the cited guidance, pending final authority review.
+    sourceIds:
+      - kh-gdce-passenger
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

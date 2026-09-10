@@ -1,0 +1,13 @@
+id: kr-kcs-passengers
+authorityName: Korea Customs Service
+pageTitle: 'Customs Clearance Guide for Passengers'
+url: https://www.customs.go.kr/english/cm/cntnts/cntntsView.do?mi=8069&cntntsId=2743
+jurisdiction: KR
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.cashDeclaration.rules
+  - customs.declarationRequirements
+sourceType: customs

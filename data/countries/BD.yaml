@@ -4,8 +4,20 @@ customs:
   foodAndAgriculture: []
   medicines: []
   cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  alcohol:
+    rules:
+      - text: >-
+          Passengers who are not Bangladeshi nationals may bring in up to 1 litre
+          of liquor duty-free. Bangladeshi passport holders may not carry any
+          alcohol - it will be seized on arrival.
+        sourceIds:
+          - bd-nbr-baggage
+  tobacco:
+    rules:
+      - text: >-
+          Up to 1 carton (200 cigarettes) for personal use; any excess is seized.
+        sourceIds:
+          - bd-nbr-baggage
   prohibitedItems: []
   restrictedItems: []
   declarationRequirements: []
@@ -19,7 +31,14 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      Note: Bangladeshi passport holders may not import alcohol (seized);
+      non-nationals may bring up to 1 litre. Crew should confirm any
+      crew-specific treatment with the NBR. Compiled from the cited baggage
+      rules, pending final authority review.
+    sourceIds:
+      - bd-nbr-baggage
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

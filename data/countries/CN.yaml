@@ -3,12 +3,37 @@ countryName: China
 customs:
   foodAndAgriculture: []
   medicines: []
-  cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  cashDeclaration:
+    rules:
+      - text: >-
+          Non-resident passengers must declare foreign currency over USD 5,000
+          (residents over USD 1,000). Chinese yuan has a hard entry limit of
+          CNY 20,000.
+        sourceIds:
+          - cn-gacc-passenger
+  alcohol:
+    rules:
+      - text: >-
+          Non-resident passengers may bring in 1,500 ml of alcoholic drinks
+          (12% ABV or above) duty-free.
+        sourceIds:
+          - cn-gacc-passenger
+  tobacco:
+    rules:
+      - text: >-
+          Non-resident passengers may bring in 400 cigarettes, or 100 cigars, or
+          500g of smoking tobacco, duty-free.
+        sourceIds:
+          - cn-gacc-passenger
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        Non-resident visitors may bring in personal goods (excluding alcohol and
+        tobacco) up to a total value of RMB 2,000 duty-free; above that, goods
+        must be declared.
+      sourceIds:
+        - cn-gacc-passenger
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +44,13 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      General China traveller allowances (non-resident figures); crew should
+      confirm any crew-specific treatment with GACC. Compiled from official
+      customs guidance, pending final authority review.
+    sourceIds:
+      - cn-gacc-passenger
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

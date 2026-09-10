@@ -1,0 +1,13 @@
+id: jp-customs-passenger
+authorityName: Japan Customs
+pageTitle: 'For Passenger - duty-free allowance'
+url: https://www.customs.go.jp/english/summary/passenger.htm
+jurisdiction: JP
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.cashDeclaration.rules
+  - customs.declarationRequirements
+sourceType: customs

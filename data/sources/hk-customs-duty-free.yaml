@@ -1,0 +1,12 @@
+id: hk-customs-duty-free
+authorityName: Hong Kong Customs and Excise Department
+pageTitle: 'Duty-free Concessions'
+url: https://www.customs.gov.hk/en/service-enforcement-information/passenger-clearance/duty-free-concessions/index.html
+jurisdiction: HK
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.declarationRequirements
+sourceType: customs

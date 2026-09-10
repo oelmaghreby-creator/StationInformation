@@ -4,11 +4,30 @@ customs:
   foodAndAgriculture: []
   medicines: []
   cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  alcohol:
+    rules:
+      - text: >-
+          A passenger aged 18 or over may bring in 1 litre of alcoholic liquor
+          with strength above 30% ABV, for personal use (HK ID holders must have
+          spent 24 hours or more outside Hong Kong).
+        sourceIds:
+          - hk-customs-duty-free
+  tobacco:
+    rules:
+      - text: >-
+          Tobacco allowance is 19 cigarettes, or 1 cigar, or 25g of other
+          tobacco, per person.
+        sourceIds:
+          - hk-customs-duty-free
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        Hong Kong is a free port; most goods are duty-free. Only liquor, tobacco,
+        hydrocarbon oil and methyl alcohol are dutiable and subject to the
+        concessions above.
+      sourceIds:
+        - hk-customs-duty-free
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +38,13 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      General Hong Kong traveller concessions; note the low 19-cigarette tobacco
+      allowance. Crew should confirm any crew-specific treatment. Compiled from
+      the cited HK Customs & Excise guidance, pending final authority review.
+    sourceIds:
+      - hk-customs-duty-free
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

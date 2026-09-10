@@ -1,0 +1,11 @@
+id: mv-customs-tourist
+authorityName: Maldives Customs Service
+pageTitle: 'Information for tourists / prohibited and restricted items'
+url: https://www.customs.gov.mv/d/tourist.pdf
+jurisdiction: MV
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.prohibitedItems
+  - crewNotes
+sourceType: customs

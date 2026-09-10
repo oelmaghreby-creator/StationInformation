@@ -1,0 +1,11 @@
+id: bd-nbr-baggage
+authorityName: Bangladesh Customs, National Board of Revenue (NBR)
+pageTitle: 'Baggage Rules'
+url: https://bangladeshcustoms.gov.bd/relevant/baggage_rules
+jurisdiction: BD
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+sourceType: customs

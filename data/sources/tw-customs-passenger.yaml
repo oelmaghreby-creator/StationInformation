@@ -1,0 +1,13 @@
+id: tw-customs-passenger
+authorityName: Customs Administration, Ministry of Finance (Taiwan)
+pageTitle: 'Duty-exempted goods and maximum quantities for arriving passengers'
+url: https://web.customs.gov.tw/etaipei/singlehtml/1367?cntId=c169690278c641edb4c70868eccbb6f6
+jurisdiction: TW
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.cashDeclaration.rules
+  - customs.declarationRequirements
+sourceType: customs
