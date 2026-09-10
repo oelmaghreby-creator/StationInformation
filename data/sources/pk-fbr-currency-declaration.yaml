@@ -1,0 +1,10 @@
+id: pk-fbr-currency-declaration
+authorityName: Federal Board of Revenue - Pakistan Customs
+pageTitle: 'Currency Declaration for International Travellers'
+url: https://www.fbr.gov.pk/categ/travel-guide/51149/80881/131184
+jurisdiction: PK
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.cashDeclaration.rules
+sourceType: customs
