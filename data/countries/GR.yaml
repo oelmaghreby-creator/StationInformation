@@ -3,12 +3,39 @@ countryName: Greece
 customs:
   foodAndAgriculture: []
   medicines: []
-  cashDeclaration: {}
-  alcohol: {}
-  tobacco: {}
+  cashDeclaration:
+    rules:
+      - text: >-
+          Travellers entering or leaving the EU carrying EUR 10,000 or more (or
+          the equivalent in another currency) must declare it to customs.
+        sourceIds:
+          - eu-youreurope-allowances
+  alcohol:
+    rules:
+      - text: >-
+          Arriving from outside the EU, the allowance is 4 litres of still wine
+          and 16 litres of beer, plus one of: 1 litre of spirits over 22% vol,
+          1 litre of undenatured ethyl alcohol 80% vol or higher, or 2 litres of
+          fortified or sparkling wine. Some member states apply lower limits.
+        sourceIds:
+          - eu-youreurope-allowances
+  tobacco:
+    rules:
+      - text: >-
+          Arriving from outside the EU, the allowance is 200 cigarettes, or 100
+          cigarillos, or 50 cigars, or 250g of tobacco. Some member states apply
+          lower limits (e.g. 40 cigarettes).
+        sourceIds:
+          - eu-youreurope-allowances
   prohibitedItems: []
   restrictedItems: []
-  declarationRequirements: []
+  declarationRequirements:
+    - text: >-
+        For air travellers arriving from outside the EU, goods (other than the
+        tobacco and alcohol allowances) up to EUR 430 in value are free of duty
+        and tax; above that, goods must be declared.
+      sourceIds:
+        - eu-youreurope-allowances
 baggageSecurity:
   handBaggage:
     sharpObjects: []
@@ -19,7 +46,14 @@ baggageSecurity:
     knivesAndSharpObjects: []
     batteriesAndElectronics: []
     prohibitedItems: []
-crewNotes: []
-reviewStatus: research_pending
-lastVerified: null
-nextReviewDue: null
+crewNotes:
+  - text: >-
+      These are the EU-wide traveller allowances for arrivals from outside the
+      EU. Individual member states may set lower limits or reduce allowances for
+      operating crew, so confirm the Greece national rule. Compiled from the
+      cited EU guidance and pending final authority review.
+    sourceIds:
+      - eu-youreurope-allowances
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

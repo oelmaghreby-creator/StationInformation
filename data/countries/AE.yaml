@@ -1,0 +1,55 @@
+iso2: AE
+countryName: United Arab Emirates
+customs:
+  foodAndAgriculture: []
+  medicines: []
+  cashDeclaration:
+    rules:
+      - text: >-
+          Travellers aged 18 or over entering the UAE must declare cash or
+          equivalent monetary instruments of AED 60,000 or more.
+        sourceIds:
+          - ae-federal-customs
+  alcohol:
+    rules:
+      - text: >-
+          Non-Muslim travellers aged 18 or over may bring in up to 4 litres of
+          alcohol, or 2 cartons of beer (24 cans each, not exceeding 355 ml per
+          can), for personal use.
+        sourceIds:
+          - ae-federal-customs
+  tobacco:
+    rules:
+      - text: >-
+          The traveller tobacco allowance is 400 cigarettes, plus 50 cigars, plus
+          500 grams of tobacco.
+        sourceIds:
+          - ae-federal-customs
+  prohibitedItems: []
+  restrictedItems: []
+  declarationRequirements:
+    - text: >-
+        Gifts and personal goods up to AED 3,000 in value are admitted free of
+        duty; goods above that value, and any restricted items, must be declared.
+      sourceIds:
+        - ae-federal-customs
+baggageSecurity:
+  handBaggage:
+    sharpObjects: []
+    liquids: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+  checkedCargoBag:
+    knivesAndSharpObjects: []
+    batteriesAndElectronics: []
+    prohibitedItems: []
+crewNotes:
+  - text: >-
+      Figures compiled from UAE federal customs guidance and pending
+      verification against the exact authority page. Operating crew should
+      confirm any crew-specific treatment with UAE customs.
+    sourceIds:
+      - ae-federal-customs
+reviewStatus: needs_review
+lastVerified: '2026-09-10'
+nextReviewDue: '2026-12-10'

@@ -1,0 +1,13 @@
+id: us-cbp-duty-exemptions
+authorityName: U.S. Customs and Border Protection
+pageTitle: Customs Duty Information
+url: https://www.cbp.gov/travel/international-visitors/kbyg/customs-duty-info
+jurisdiction: US
+accessedAt: '2026-09-10'
+fingerprint: manual-2026-09-10
+supportsFields:
+  - customs.alcohol.rules
+  - customs.tobacco.rules
+  - customs.declarationRequirements
+  - customs.cashDeclaration.rules
+sourceType: customs
